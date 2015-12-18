@@ -1,0 +1,6 @@
+
+Rules:
+1.Black plays first.
+2.White plays second.
+3.The winner is the first player to get an unbroken row 
+  of five stones horizontally, vertically, or diagonally.
