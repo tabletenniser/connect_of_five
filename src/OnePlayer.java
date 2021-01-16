@@ -1,5 +1,5 @@
 import javax.swing.*;
-import java.util.ArrayList;
+import java.util.*;
 import java.lang.Math;
 
 import java.awt.*;
@@ -10,24 +10,27 @@ import java.io.File;
 public class OnePlayer extends JFrame implements MouseListener{
   // declares serial version
   private static final long serialVersionUID = 1L;
+  private static final int REC_DEPTH = 4;
+  private static final int BOARD_SIZE = 16;
   private static final int MAX_SCORE=1000000000;
   private static final int SCORE_OF_FIVE = 10000;
   // four in a row
-  private static final int SCORE_OF_LIVE_FOUR = 2000;
+  private static final int SCORE_OF_LIVE_FOUR = 3000;
   private static final int SCORE_OF_DEAD_FOUR = 400;
-  private static final int SCORE_OF_DEAD_FOUR_PLAYER_MOVE = 1000;
+  private static final int SCORE_OF_DEAD_FOUR_PLAYER_MOVE = 4000;
   // three in a row
-  private static final int SCORE_OF_LIVE_THREE = 200;
-  private static final int SCORE_OF_LIVE_THREE_PLAYER_MOVE = 500;
+  // need to be more than SCORE_OF_LIVE_TWO_PLAYER_MOVE so that we know to block it.
+  private static final int SCORE_OF_LIVE_THREE = 150;
+  private static final int SCORE_OF_LIVE_THREE_PLAYER_MOVE = 1000;
   private static final int SCORE_OF_DEAD_THREE = 50;
-  private static final int SCORE_OF_DEAD_THREE_PLAYER_MOVE = 100;
+  private static final int SCORE_OF_DEAD_THREE_PLAYER_MOVE = 150;
   // two in a row
-  private static final int SCORE_OF_LIVE_TWO = 50;
-  private static final int SCORE_OF_LIVE_TWO_PLAYER_MOVE = 100;
+  private static final int SCORE_OF_LIVE_TWO = 30;
+  private static final int SCORE_OF_LIVE_TWO_PLAYER_MOVE = 70;
   private static final int SCORE_OF_DEAD_TWO = 5;
   private static final int SCORE_OF_DEAD_TWO_PLAYER_MOVE = 10;
   private static final int SCORE_OF_ADJACENT=5;
-  private static final int SCORE_RANDOM=3;
+  private static final int SCORE_RANDOM=2;
 
   private static final int BLOCK_FOUR_SCORE = 3000;
   private static final int BLOCK_LIVE_THREE_SCORE = 500;
@@ -36,6 +39,7 @@ public class OnePlayer extends JFrame implements MouseListener{
 
   // a static string used to store user's name
   static String playerOne;
+  static Hashtable<String, Integer> scenarioHT = new Hashtable<>();
 
   //define those JComponents
   ImageIcon icon=new ImageIcon("CHESSBOARD.jpg");
@@ -150,14 +154,39 @@ public class OnePlayer extends JFrame implements MouseListener{
   /************************* ABS MINIMAX ALGORITHM STARTS *******************************/
   /************************* ABS MINIMAX ALGORITHM STARTS *******************************/
   public static boolean positionHasStone(int i, int j, int player_color){
-    return i >= 0 && j >= 0 && i < 16 && j < 16 && interPanelOnePlayer.chessBoard[i][j] == player_color;
+    return i >= 0 && j >= 0 && i < BOARD_SIZE && j < BOARD_SIZE && interPanelOnePlayer.chessBoard[i][j] == player_color;
   }
   public static boolean hasStone(int i, int j){
-    return i >= 0 && j >= 0 && i < 16 && j < 16 && interPanelOnePlayer.chessBoard[i][j] != 0;
+    return i >= 0 && j >= 0 && i < BOARD_SIZE && j < BOARD_SIZE && interPanelOnePlayer.chessBoard[i][j] != 0;
+  }
+  public static String getBoardHashCode(){
+    ArrayList<Character> arr = new ArrayList<Character>();
+    for (int[] row: interPanelOnePlayer.chessBoard) {
+      for (int cell: row) {
+        if (cell == 0)
+          arr.add('0');
+        else if (cell == 1)
+          arr.add('a');
+        else if (cell == -1)
+          arr.add('b');
+        else
+          assert(false);
+      }
+    }
+    StringBuilder sb = new StringBuilder();
+    for (Character ch : arr) {
+        sb.append(ch);
+    }
+    return sb.toString();
   }
   public static int evaluateCurSituation(int next_player){
+    String boardAsString = getBoardHashCode();
+    if (scenarioHT.containsKey(boardAsString)) {
+      System.out.println("Cache hit: "+boardAsString+": "+scenarioHT.get(boardAsString));
+      return scenarioHT.get(boardAsString);
+    }
     int score=0;
-    for (int i = 0; i < 16; i++) {
+    for (int i = 0; i < BOARD_SIZE; i++) {
       score+=getDirectionScore(i, 0, 0, 1, next_player); // vertical
       score+=getDirectionScore(0, i, 1, 0, next_player);// horizontal
       // down right
@@ -167,15 +196,16 @@ public class OnePlayer extends JFrame implements MouseListener{
       // down left
       score+=getDirectionScore(i, 0, -1, 1, next_player);
       if (i != 0)
-        score+=getDirectionScore(15, i, -1, 1, next_player);
+        score+=getDirectionScore(BOARD_SIZE-1, i, -1, 1, next_player);
     }
+    scenarioHT.put(boardAsString, score);
     return score;
   }
 
   public static int getDirectionScore(int i, int j, int x_dir, int y_dir, int player) {
     assert(player!=0);
     ArrayList<Character> arrlist = new ArrayList<Character>();
-    for (int m = 0; m <= 16; m++) {
+    for (int m = 0; m <= BOARD_SIZE; m++) {
       if (positionHasStone(i+m*x_dir, j+m*y_dir, player))
         arrlist.add('a');
       else if (positionHasStone(i+m*x_dir, j+m*y_dir, -player))
@@ -190,13 +220,12 @@ public class OnePlayer extends JFrame implements MouseListener{
         sb.append(ch);
     }
     String s = sb.toString();
-    // if (s.contains("a") || s.contains("b"))
-    //   System.out.println("String:"+s);
     int res = evaluate1DScore(s)*player;
-    // if (res != 0)
-    //   System.out.println("Interesting pattern found for "+player+"; "+res+"at: "+i+","+j+" - "+x_dir+","+y_dir+":"+s);
+    if (res != 0)
+      System.out.println("Interesting pattern found for "+player+"; "+res+"at: "+i+","+j+" - "+x_dir+","+y_dir+":"+s);
     return res;
   }
+  // TODO: convert this as for loop match and avoid StringBuilder
   public static int evaluate1DScore(String s) {
     if (s.length() < 5)
       return 0;
@@ -226,57 +255,86 @@ public class OnePlayer extends JFrame implements MouseListener{
       return -SCORE_OF_LIVE_TWO;
     return 0;
   }
-  // Return a tuple of [bestMove, bestScore]
+  // Return a tuple of [bestMove, bestScore, branchFactor]
   public static int[] miniMaxRec(int depth, boolean isBlackTurn, int alpha, int beta) {
     int bestMove=0;
     int bestScore=isBlackTurn ? -MAX_SCORE : MAX_SCORE;
     int stoneColor = isBlackTurn ? 1 : -1;
-    int curScore=0;
     if (depth==0) {
-      int[] ans = {-1, evaluateCurSituation(stoneColor), 1};
+      int curScore = evaluateCurSituation(stoneColor);
+      System.out.println(stoneColor+"'s scenario: "+curScore);
+      int[] ans = {-1, curScore, 1};
       return ans;
     }
+    int curScore=0;
     int branchFactor = 0;
     int totalScenarios = 0;
-    for (int i=0;i<16;i++){
-      for (int j=0;j<16;j++){
+    // A tuple containing (score, i, j)
+    java.util.List<int[]> possibleMoves = new ArrayList<int[]>();
+    for (int i=0;i<BOARD_SIZE;i++){
+      for (int j=0;j<BOARD_SIZE;j++){
         if (hasStone(i,j) || (!hasStone(i-1, j-1) && !hasStone(i-1, j) && !hasStone(i, j-1) && !hasStone(i-1, j+1) &&
         !hasStone(i+1, j+1) && !hasStone(i+1, j) && !hasStone(i, j+1) && !hasStone(i+1, j-1))){
           continue;
         }
-        interPanelOnePlayer.chessBoard[i][j]= isBlackTurn ? 1 : -1;
-        int[] recResult=miniMaxRec(depth-1, !isBlackTurn, alpha, beta);
-        curScore = recResult[1];
-        branchFactor++;
-        totalScenarios+=recResult[2];
-        if (isBlackTurn && curScore>bestScore || (!isBlackTurn && curScore<bestScore)){      //try to maximize the move
-          // System.out.println("Better move found for "+stoneColor+"; Prev Move: "+bestMove+"New move: "+i+","+j+"; Prev Score: "+bestScore+" New score:"+curScore);
-          bestScore=curScore;
-          bestMove=100*i+j;
-          if (isBlackTurn)
-            alpha = curScore;
-          else
-            beta = curScore;
-        }
-        interPanelOnePlayer.chessBoard[i][j]=0;
-        if (isBlackTurn && bestScore>SCORE_OF_LIVE_FOUR || !isBlackTurn && bestScore<-SCORE_OF_LIVE_FOUR) {
-          System.out.println(stoneColor+"'s is WINNING with move"+bestMove+" and depth is "+depth+" best score is "+bestScore+"(Branch factor:"+branchFactor+"; Scenarios Evaluated:"+totalScenarios+")");
-          int[] ans = {bestMove, bestScore, totalScenarios};
-          return ans;
-        }
-        if (alpha >= beta) {
-          // System.out.println("Pruning occurred at: "+branchFactor);
-          break;
-        }
+        interPanelOnePlayer.chessBoard[i][j] = isBlackTurn ? 1 : -1;
+        // positive for blackGain; negative for whiteGain;
+        int scoreGain = Math.abs(evaluateScoreDelta(i, j));
+        possibleMoves.add(new int[]{scoreGain, i, j});
+        interPanelOnePlayer.chessBoard[i][j] = 0;
       }
     }
+    Collections.sort(possibleMoves, new Comparator<int[]>() {
+      @Override
+      public int compare(int[] move1, int[] move2) {
+          return move2[0] - move1[0];
+      }
+    });
+
+    for (int[] move: possibleMoves) {
+      // System.out.println(depth+"Move score: "+move[0]);
+      int i = move[1];
+      int j = move[2];
+      interPanelOnePlayer.chessBoard[i][j] = isBlackTurn ? 1 : -1;
+      int[] recResult=miniMaxRec(depth-1, !isBlackTurn, alpha, beta);
+      curScore = recResult[1];
+      branchFactor++;
+      totalScenarios+=recResult[2];
+      if (isBlackTurn && curScore>bestScore || (!isBlackTurn && curScore<bestScore)){      //try to maximize the move
+        // System.out.println("Better move found for "+stoneColor+"; Prev Move: "+bestMove+"New move: "+i+","+j+"; Prev Score: "+bestScore+" New score:"+curScore);
+        bestScore=curScore;
+        bestMove=100*i+j;
+        if (isBlackTurn)
+          alpha = curScore;
+        else
+          beta = curScore;
+      }
+      interPanelOnePlayer.chessBoard[i][j]=0;
+      // if (isBlackTurn && bestScore>SCORE_OF_LIVE_FOUR || !isBlackTurn && bestScore<-SCORE_OF_LIVE_FOUR || move[0] > 1000) {
+      if (Math.abs(move[0]) > 1000) {
+        if (depth == REC_DEPTH)
+          System.out.println(stoneColor+"'s is making easy move with "+bestMove+" and depth is "+depth+" best score is "+bestScore+"(Branch factor:"+branchFactor+"; Scenarios Evaluated:"+totalScenarios+")");
+        int[] ans = {bestMove, bestScore, totalScenarios};
+        return ans;
+      }
+      if (alpha >= beta) {
+        // System.out.println("Pruning occurred at: "+branchFactor);
+        break;
+      }
+    }
+    // if (depth == REC_DEPTH)
     System.out.println(stoneColor+"'s best move"+bestMove+" and depth is "+depth+" best score is "+bestScore+"(Branch factor:"+branchFactor+"; Scenarios Evaluated:"+totalScenarios+")");
     int[] ans = {bestMove, bestScore, totalScenarios};
     return ans;
   }
 
   public static int calculateNEW(){
-    return miniMaxRec(2, false, -MAX_SCORE, MAX_SCORE)[0];
+    Date prevTimestamp = new Date();
+    int move = miniMaxRec(REC_DEPTH, false, -MAX_SCORE, MAX_SCORE)[0];
+    Date newTimestamp = new Date();
+    long difference = newTimestamp.getTime() - prevTimestamp.getTime();
+    System.out.println("It takes "+difference+"ms to make a move.");
+    return move;
   }
   /************************* ABS MINIMAX ALGORITHM ENDS *******************************/
   /************************* ABS MINIMAX ALGORITHM ENDS *******************************/
@@ -293,8 +351,8 @@ public class OnePlayer extends JFrame implements MouseListener{
       int[] ans = {-1, 0};
       return ans;
     }
-    for (int i=0;i<16;i++){
-      for (int j=0;j<16;j++){
+    for (int i=0;i<BOARD_SIZE;i++){
+      for (int j=0;j<BOARD_SIZE;j++){
         if (hasStone(i,j) || (!hasStone(i-1, j-1) && !hasStone(i-1, j) && !hasStone(i, j-1) && !hasStone(i-1, j+1) &&
         !hasStone(i+1, j+1) && !hasStone(i+1, j) && !hasStone(i, j+1) && !hasStone(i+1, j-1))){
           continue;
@@ -403,8 +461,8 @@ public class OnePlayer extends JFrame implements MouseListener{
 
   //this method checks if white wins
   public static boolean IsBlackWin(int a[][]){
-    for (int i=0;i<16;i++){
-      for (int j=0;j<16;j++){
+    for (int i=0;i<BOARD_SIZE;i++){
+      for (int j=0;j<BOARD_SIZE;j++){
         if (j<12 && a[i][j]==1 && a[i][j+1]==1 && a[i][j+2]==1 && a[i][j+3]==1 && a[i][j+4]==1){
           return true;
         }
@@ -424,8 +482,8 @@ public class OnePlayer extends JFrame implements MouseListener{
 
   //this method checks if white wins
   public static boolean IsWhiteWin(int a[][]){
-    for (int i=0;i<16;i++){
-      for (int j=0;j<16;j++){
+    for (int i=0;i<BOARD_SIZE;i++){
+      for (int j=0;j<BOARD_SIZE;j++){
         if (j<12 && a[i][j]==-1 && a[i][j+1]==-1 && a[i][j+2]==-1 && a[i][j+3]==-1 && a[i][j+4]==-1){
           return true;
         }
@@ -462,9 +520,9 @@ public class OnePlayer extends JFrame implements MouseListener{
   public static int Calculate(){
 
     // initialize the points of each position as 0
-    int[][] score = new int [16][16];
-    for (int i=0;i<16;i++){
-      for (int j=0;j<16;j++){
+    int[][] score = new int [BOARD_SIZE][BOARD_SIZE];
+    for (int i=0;i<BOARD_SIZE;i++){
+      for (int j=0;j<BOARD_SIZE;j++){
         score[i][j]=0;
       }
     }
@@ -474,8 +532,8 @@ public class OnePlayer extends JFrame implements MouseListener{
     int bestMove=0;
 
     // go over each available place to find the best move
-    for (int i=0;i<16;i++){
-      for (int j=0;j<16;j++){
+    for (int i=0;i<BOARD_SIZE;i++){
+      for (int j=0;j<BOARD_SIZE;j++){
         if (interPanelOnePlayer.chessBoard[i][j]==0){
           if (ConnectFive(i,j)!=0){
             score[i][j]+=100000000*ConnectFive(i,j);
@@ -507,7 +565,7 @@ public class OnePlayer extends JFrame implements MouseListener{
           if(BlockOne(i,j)!=0){
             score[i][j]+=600*BlockOne(i,j);
           }
-          if(i==0 || j==0 || i==15 || j==15){
+          if(i==0 || j==0 || i==BOARD_SIZE-1 || j==BOARD_SIZE-1){
             score[i][j]-=100;
           }else if(i==1 || j==1 || i==14 || j==14){
             score[i][j]-=80;
@@ -531,8 +589,8 @@ public class OnePlayer extends JFrame implements MouseListener{
 
     /*
     // find the best move
-    for(int i=0;i<16;i++){
-    for(int j=0;j<16;j++){
+    for(int i=0;i<BOARD_SIZE;i++){
+    for(int j=0;j<BOARD_SIZE;j++){
     if (score[i][j]>=bestScore){
     bestScore=score[i][j];
     bestMove=100*i+j;
