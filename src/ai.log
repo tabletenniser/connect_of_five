@@ -1,0 +1,2394 @@
+[17:20:579] [INFO  ] Game is starting! 
+[17:29:917] [FINE  ] 2 - Try placing WHITE at: 5,6 
+[17:29:927] [FINE  ] 1 - Try placing BLACK at: 4,7 
+[17:29:947] [FINE  ] WHITE's scenario: 30 
+[17:29:948] [FINE  ] 1 - score: 30 
+[17:29:949] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:29:964] [FINE  ] WHITE's scenario: 30 
+[17:29:965] [FINE  ] 1 - score: 30 
+[17:29:966] [FINE  ] 1 - Try placing BLACK at: 5,8 
+[17:29:975] [FINE  ] WHITE's scenario: 30 
+[17:29:975] [FINE  ] 1 - score: 30 
+[17:29:976] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:29:985] [FINE  ] WHITE's scenario: 30 
+[17:29:985] [FINE  ] 1 - score: 30 
+[17:29:986] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:29:994] [FINE  ] WHITE's scenario: 30 
+[17:29:994] [FINE  ] 1 - score: 30 
+[17:29:995] [FINE  ] 1 - Try placing BLACK at: 6,8 
+[17:30:002] [FINE  ] WHITE's scenario: 30 
+[17:30:003] [FINE  ] 1 - score: 30 
+[17:30:004] [FINE  ] 1 - Try placing BLACK at: 7,6 
+[17:30:012] [FINE  ] WHITE's scenario: 30 
+[17:30:013] [FINE  ] 1 - score: 30 
+[17:30:014] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[17:30:022] [FINE  ] WHITE's scenario: 30 
+[17:30:022] [FINE  ] 1 - score: 30 
+[17:30:023] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[17:30:030] [FINE  ] WHITE's scenario: 0 
+[17:30:030] [FINE  ] 1 - score: 0 
+[17:30:031] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[17:30:036] [FINE  ] WHITE's scenario: 0 
+[17:30:037] [FINE  ] 1 - score: 0 
+[17:30:038] [FINE  ] 1 - Try placing BLACK at: 5,5 
+[17:30:047] [FINE  ] WHITE's scenario: 0 
+[17:30:048] [FINE  ] 1 - score: 0 
+[17:30:049] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[17:30:055] [FINE  ] WHITE's scenario: 0 
+[17:30:056] [FINE  ] 1 - score: 0 
+[17:30:066] [FINE  ] BLACK best move407 and depth is 1 best score is 30(Branch factor:12; Scenarios Evaluated:12) 
+[17:30:068] [FINE  ] 2 - score: 30 
+[17:30:069] [FINE  ] 2 - Try placing WHITE at: 5,7 
+[17:30:072] [FINE  ] 1 - Try placing BLACK at: 5,6 
+[17:30:078] [FINE  ] WHITE's scenario: 30 
+[17:30:079] [FINE  ] 1 - score: 30 
+[17:30:079] [FINE  ] BLACK best move506 and depth is 1 best score is 30(Branch factor:1; Scenarios Evaluated:1) 
+[17:30:080] [FINE  ] 2 - score: 30 
+[17:30:080] [FINE  ] 2 - Try placing WHITE at: 5,8 
+[17:30:084] [FINE  ] 1 - Try placing BLACK at: 4,7 
+[17:30:089] [FINE  ] WHITE's scenario: 30 
+[17:30:090] [FINE  ] 1 - score: 30 
+[17:30:091] [FINE  ] BLACK best move407 and depth is 1 best score is 30(Branch factor:1; Scenarios Evaluated:1) 
+[17:30:091] [FINE  ] 2 - score: 30 
+[17:30:092] [FINE  ] 2 - Try placing WHITE at: 6,6 
+[17:30:095] [FINE  ] 1 - Try placing BLACK at: 5,6 
+[17:30:100] [FINE  ] WHITE's scenario: 30 
+[17:30:101] [FINE  ] 1 - score: 30 
+[17:30:102] [FINE  ] BLACK best move506 and depth is 1 best score is 30(Branch factor:1; Scenarios Evaluated:1) 
+[17:30:102] [FINE  ] 2 - score: 30 
+[17:30:103] [FINE  ] 2 - Try placing WHITE at: 6,8 
+[17:30:105] [FINE  ] 1 - Try placing BLACK at: 5,6 
+[17:30:111] [FINE  ] WHITE's scenario: 30 
+[17:30:111] [FINE  ] 1 - score: 30 
+[17:30:112] [FINE  ] BLACK best move506 and depth is 1 best score is 30(Branch factor:1; Scenarios Evaluated:1) 
+[17:30:112] [FINE  ] 2 - score: 30 
+[17:30:113] [FINE  ] 2 - Try placing WHITE at: 7,6 
+[17:30:115] [FINE  ] 1 - Try placing BLACK at: 5,6 
+[17:30:121] [FINE  ] WHITE's scenario: 30 
+[17:30:121] [FINE  ] 1 - score: 30 
+[17:30:121] [FINE  ] BLACK best move506 and depth is 1 best score is 30(Branch factor:1; Scenarios Evaluated:1) 
+[17:30:122] [FINE  ] 2 - score: 30 
+[17:30:122] [FINE  ] 2 - Try placing WHITE at: 7,7 
+[17:30:125] [FINE  ] 1 - Try placing BLACK at: 5,6 
+[17:30:130] [FINE  ] WHITE's scenario: 30 
+[17:30:131] [FINE  ] 1 - score: 30 
+[17:30:131] [FINE  ] BLACK best move506 and depth is 1 best score is 30(Branch factor:1; Scenarios Evaluated:1) 
+[17:30:132] [FINE  ] 2 - score: 30 
+[17:30:132] [FINE  ] 2 - Try placing WHITE at: 7,8 
+[17:30:136] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:30:142] [FINE  ] WHITE's scenario: 30 
+[17:30:143] [FINE  ] 1 - score: 30 
+[17:30:143] [FINE  ] BLACK best move507 and depth is 1 best score is 30(Branch factor:1; Scenarios Evaluated:1) 
+[17:30:144] [FINE  ] 2 - score: 30 
+[17:30:144] [FINE  ] WHITE best move506 and depth is 2 best score is 30(Branch factor:8; Scenarios Evaluated:19) 
+[17:33:567] [FINE  ] 2 - Try placing WHITE at: 5,7 
+[17:33:570] [FINE  ] 1 - Try placing BLACK at: 5,8 
+[17:33:576] [FINE  ] WHITE's scenario: 60 
+[17:33:577] [FINE  ] 1 - score: 60 
+[17:33:577] [FINE  ] 1 - Try placing BLACK at: 5,5 
+[17:33:579] [FINE  ] WHITE's scenario: 0 
+[17:33:580] [FINE  ] 1 - score: 0 
+[17:33:580] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:33:583] [FINE  ] WHITE's scenario: -40 
+[17:33:584] [FINE  ] 1 - score: -40 
+[17:33:584] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[17:33:586] [FINE  ] WHITE's scenario: -40 
+[17:33:587] [FINE  ] 1 - score: -40 
+[17:33:588] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[17:33:591] [FINE  ] WHITE's scenario: -40 
+[17:33:592] [FINE  ] 1 - score: -40 
+[17:33:592] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[17:33:595] [FINE  ] WHITE's scenario: -40 
+[17:33:596] [FINE  ] 1 - score: -40 
+[17:33:597] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:33:601] [FINE  ] WHITE's scenario: -40 
+[17:33:601] [FINE  ] 1 - score: -40 
+[17:33:602] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:33:605] [FINE  ] WHITE's scenario: -40 
+[17:33:605] [FINE  ] 1 - score: -40 
+[17:33:606] [FINE  ] 1 - Try placing BLACK at: 6,8 
+[17:33:608] [FINE  ] WHITE's scenario: -40 
+[17:33:609] [FINE  ] 1 - score: -40 
+[17:33:609] [FINE  ] 1 - Try placing BLACK at: 7,6 
+[17:33:612] [FINE  ] WHITE's scenario: -40 
+[17:33:612] [FINE  ] 1 - score: -40 
+[17:33:613] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[17:33:615] [FINE  ] WHITE's scenario: -70 
+[17:33:615] [FINE  ] 1 - score: -70 
+[17:33:616] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[17:33:619] [FINE  ] WHITE's scenario: -70 
+[17:33:619] [FINE  ] 1 - score: -70 
+[17:33:619] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[17:33:622] [FINE  ] WHITE's scenario: -70 
+[17:33:623] [FINE  ] 1 - score: -70 
+[17:33:623] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[17:33:626] [FINE  ] WHITE's scenario: -70 
+[17:33:627] [FINE  ] 1 - score: -70 
+[17:33:627] [FINE  ] BLACK best move508 and depth is 1 best score is 60(Branch factor:14; Scenarios Evaluated:14) 
+[17:33:628] [FINE  ] 2 - score: 60 
+[17:33:628] [FINE  ] 2 - Try placing WHITE at: 3,6 
+[17:33:631] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:634] [FINE  ] WHITE's scenario: 130 
+[17:33:635] [FINE  ] 1 - score: 130 
+[17:33:635] [FINE  ] BLACK best move507 and depth is 1 best score is 130(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:635] [FINE  ] 2 - score: 130 
+[17:33:636] [FINE  ] 2 - Try placing WHITE at: 4,6 
+[17:33:638] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:641] [FINE  ] WHITE's scenario: 130 
+[17:33:642] [FINE  ] 1 - score: 130 
+[17:33:642] [FINE  ] BLACK best move507 and depth is 1 best score is 130(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:643] [FINE  ] 2 - score: 130 
+[17:33:643] [FINE  ] 2 - Try placing WHITE at: 5,5 
+[17:33:647] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:649] [FINE  ] WHITE's scenario: 200 
+[17:33:649] [FINE  ] 1 - score: 200 
+[17:33:650] [FINE  ] BLACK best move507 and depth is 1 best score is 200(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:650] [FINE  ] 2 - score: 200 
+[17:33:650] [FINE  ] 2 - Try placing WHITE at: 5,8 
+[17:33:654] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:658] [FINE  ] WHITE's scenario: 200 
+[17:33:658] [FINE  ] 1 - score: 200 
+[17:33:658] [FINE  ] BLACK best move507 and depth is 1 best score is 200(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:659] [FINE  ] 2 - score: 200 
+[17:33:659] [FINE  ] 2 - Try placing WHITE at: 6,6 
+[17:33:662] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:665] [FINE  ] WHITE's scenario: 130 
+[17:33:665] [FINE  ] 1 - score: 130 
+[17:33:666] [FINE  ] BLACK best move507 and depth is 1 best score is 130(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:666] [FINE  ] 2 - score: 130 
+[17:33:666] [FINE  ] 2 - Try placing WHITE at: 7,6 
+[17:33:670] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:674] [FINE  ] WHITE's scenario: 130 
+[17:33:674] [FINE  ] 1 - score: 130 
+[17:33:675] [FINE  ] BLACK best move507 and depth is 1 best score is 130(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:675] [FINE  ] 2 - score: 130 
+[17:33:675] [FINE  ] 2 - Try placing WHITE at: 3,7 
+[17:33:678] [FINE  ] 1 - Try placing BLACK at: 5,8 
+[17:33:680] [FINE  ] WHITE's scenario: 60 
+[17:33:681] [FINE  ] 1 - score: 60 
+[17:33:681] [FINE  ] BLACK best move508 and depth is 1 best score is 60(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:681] [FINE  ] 2 - score: 60 
+[17:33:682] [FINE  ] 2 - Try placing WHITE at: 3,8 
+[17:33:685] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:688] [FINE  ] WHITE's scenario: 200 
+[17:33:688] [FINE  ] 1 - score: 200 
+[17:33:688] [FINE  ] BLACK best move507 and depth is 1 best score is 200(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:689] [FINE  ] 2 - score: 200 
+[17:33:689] [FINE  ] 2 - Try placing WHITE at: 4,5 
+[17:33:692] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:694] [FINE  ] WHITE's scenario: 200 
+[17:33:695] [FINE  ] 1 - score: 200 
+[17:33:695] [FINE  ] BLACK best move507 and depth is 1 best score is 200(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:695] [FINE  ] 2 - score: 200 
+[17:33:695] [FINE  ] 2 - Try placing WHITE at: 4,8 
+[17:33:698] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:700] [FINE  ] WHITE's scenario: 200 
+[17:33:701] [FINE  ] 1 - score: 200 
+[17:33:701] [FINE  ] BLACK best move507 and depth is 1 best score is 200(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:701] [FINE  ] 2 - score: 200 
+[17:33:702] [FINE  ] 2 - Try placing WHITE at: 6,5 
+[17:33:705] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:708] [FINE  ] WHITE's scenario: 200 
+[17:33:709] [FINE  ] 1 - score: 200 
+[17:33:709] [FINE  ] BLACK best move507 and depth is 1 best score is 200(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:709] [FINE  ] 2 - score: 200 
+[17:33:709] [FINE  ] 2 - Try placing WHITE at: 6,8 
+[17:33:713] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:715] [FINE  ] WHITE's scenario: 200 
+[17:33:715] [FINE  ] 1 - score: 200 
+[17:33:716] [FINE  ] BLACK best move507 and depth is 1 best score is 200(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:716] [FINE  ] 2 - score: 200 
+[17:33:716] [FINE  ] 2 - Try placing WHITE at: 7,7 
+[17:33:719] [FINE  ] 1 - Try placing BLACK at: 5,8 
+[17:33:722] [FINE  ] WHITE's scenario: 60 
+[17:33:722] [FINE  ] 1 - score: 60 
+[17:33:722] [FINE  ] BLACK best move508 and depth is 1 best score is 60(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:723] [FINE  ] 2 - score: 60 
+[17:33:723] [FINE  ] 2 - Try placing WHITE at: 7,8 
+[17:33:726] [FINE  ] 1 - Try placing BLACK at: 5,7 
+[17:33:728] [FINE  ] WHITE's scenario: 200 
+[17:33:728] [FINE  ] 1 - score: 200 
+[17:33:728] [FINE  ] BLACK best move507 and depth is 1 best score is 200(Branch factor:1; Scenarios Evaluated:1) 
+[17:33:728] [FINE  ] 2 - score: 200 
+[17:33:729] [FINE  ] WHITE best move507 and depth is 2 best score is 60(Branch factor:15; Scenarios Evaluated:28) 
+[17:34:915] [FINE  ] 2 - Try placing WHITE at: 3,6 
+[17:34:918] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:34:920] [FINE  ] WHITE's scenario: 160 
+[17:34:920] [FINE  ] 1 - score: 160 
+[17:34:920] [FINE  ] 1 - Try placing BLACK at: 7,6 
+[17:34:924] [FINE  ] WHITE's scenario: 130 
+[17:34:925] [FINE  ] 1 - score: 130 
+[17:34:925] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[17:34:928] [FINE  ] WHITE's scenario: 60 
+[17:34:928] [FINE  ] 1 - score: 60 
+[17:34:928] [FINE  ] 1 - Try placing BLACK at: 6,9 
+[17:34:930] [FINE  ] WHITE's scenario: 40 
+[17:34:931] [FINE  ] 1 - score: 40 
+[17:34:931] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[17:34:934] [FINE  ] WHITE's scenario: 20 
+[17:34:935] [FINE  ] 1 - score: 20 
+[17:34:935] [FINE  ] 1 - Try placing BLACK at: 6,8 
+[17:34:937] [FINE  ] WHITE's scenario: 20 
+[17:34:938] [FINE  ] 1 - score: 20 
+[17:34:938] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[17:34:942] [FINE  ] WHITE's scenario: -10 
+[17:34:942] [FINE  ] 1 - score: -10 
+[17:34:943] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[17:34:944] [FINE  ] WHITE's scenario: -10 
+[17:34:944] [FINE  ] 1 - score: -10 
+[17:34:945] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:34:946] [FINE  ] WHITE's scenario: -10 
+[17:34:946] [FINE  ] 1 - score: -10 
+[17:34:946] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:34:947] [FINE  ] WHITE's scenario: 60 
+[17:34:948] [FINE  ] 1 - score: 60 
+[17:34:948] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[17:34:949] [FINE  ] WHITE's scenario: -10 
+[17:34:949] [FINE  ] 1 - score: -10 
+[17:34:949] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[17:34:950] [FINE  ] WHITE's scenario: -40 
+[17:34:951] [FINE  ] 1 - score: -40 
+[17:34:951] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[17:34:953] [FINE  ] WHITE's scenario: 30 
+[17:34:953] [FINE  ] 1 - score: 30 
+[17:34:954] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[17:34:955] [FINE  ] WHITE's scenario: -40 
+[17:34:955] [FINE  ] 1 - score: -40 
+[17:34:956] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[17:34:957] [FINE  ] WHITE's scenario: -40 
+[17:34:957] [FINE  ] 1 - score: -40 
+[17:34:958] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[17:34:959] [FINE  ] WHITE's scenario: -40 
+[17:34:959] [FINE  ] 1 - score: -40 
+[17:34:959] [FINE  ] 1 - Try placing BLACK at: 5,5 
+[17:34:960] [FINE  ] WHITE's scenario: -40 
+[17:34:961] [FINE  ] 1 - score: -40 
+[17:34:961] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[17:34:962] [FINE  ] WHITE's scenario: -40 
+[17:34:962] [FINE  ] 1 - score: -40 
+[17:34:962] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[17:34:963] [FINE  ] WHITE's scenario: -40 
+[17:34:964] [FINE  ] 1 - score: -40 
+[17:34:964] [FINE  ] BLACK best move409 and depth is 1 best score is 160(Branch factor:19; Scenarios Evaluated:19) 
+[17:34:965] [FINE  ] 2 - score: 160 
+[17:34:965] [FINE  ] 2 - Try placing WHITE at: 7,6 
+[17:34:967] [FINE  ] 1 - Try placing BLACK at: 6,9 
+[17:34:969] [FINE  ] WHITE's scenario: 160 
+[17:34:969] [FINE  ] 1 - score: 160 
+[17:34:969] [FINE  ] BLACK best move609 and depth is 1 best score is 160(Branch factor:1; Scenarios Evaluated:1) 
+[17:34:970] [FINE  ] 2 - score: 160 
+[17:34:970] [FINE  ] 2 - Try placing WHITE at: 4,9 
+[17:34:973] [FINE  ] 1 - Try placing BLACK at: 6,9 
+[17:34:974] [FINE  ] WHITE's scenario: 230 
+[17:34:975] [FINE  ] 1 - score: 230 
+[17:34:975] [FINE  ] BLACK best move609 and depth is 1 best score is 230(Branch factor:1; Scenarios Evaluated:1) 
+[17:34:976] [FINE  ] 2 - score: 230 
+[17:34:976] [FINE  ] 2 - Try placing WHITE at: 6,9 
+[17:34:978] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:34:979] [FINE  ] WHITE's scenario: 230 
+[17:34:979] [FINE  ] 1 - score: 230 
+[17:34:979] [FINE  ] BLACK best move409 and depth is 1 best score is 230(Branch factor:1; Scenarios Evaluated:1) 
+[17:34:980] [FINE  ] 2 - score: 230 
+[17:34:980] [FINE  ] 2 - Try placing WHITE at: 4,6 
+[17:34:981] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:34:982] [FINE  ] WHITE's scenario: 160 
+[17:34:983] [FINE  ] 1 - score: 160 
+[17:34:983] [FINE  ] BLACK best move306 and depth is 1 best score is 160(Branch factor:1; Scenarios Evaluated:1) 
+[17:34:983] [FINE  ] 2 - score: 160 
+[17:34:983] [FINE  ] 2 - Try placing WHITE at: 6,6 
+[17:34:985] [FINE  ] 1 - Try placing BLACK at: 7,6 
+[17:34:986] [FINE  ] WHITE's scenario: 160 
+[17:34:986] [FINE  ] 1 - score: 160 
+[17:34:986] [FINE  ] BLACK best move706 and depth is 1 best score is 160(Branch factor:1; Scenarios Evaluated:1) 
+[17:34:986] [FINE  ] 2 - score: 160 
+[17:34:986] [FINE  ] 2 - Try placing WHITE at: 5,5 
+[17:34:988] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:34:990] [FINE  ] WHITE's scenario: 110 
+[17:34:990] [FINE  ] 1 - score: 110 
+[17:34:991] [FINE  ] 1 - Try placing BLACK at: 6,9 
+[17:34:992] [FINE  ] WHITE's scenario: 110 
+[17:34:992] [FINE  ] 1 - score: 110 
+[17:34:992] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:34:993] [FINE  ] WHITE's scenario: 80 
+[17:34:993] [FINE  ] 1 - score: 80 
+[17:34:993] [FINE  ] 1 - Try placing BLACK at: 7,6 
+[17:34:994] [FINE  ] WHITE's scenario: 80 
+[17:34:995] [FINE  ] 1 - score: 80 
+[17:34:995] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[17:34:996] [FINE  ] WHITE's scenario: -30 
+[17:34:996] [FINE  ] 1 - score: -30 
+[17:34:996] [FINE  ] 1 - Try placing BLACK at: 6,8 
+[17:34:997] [FINE  ] WHITE's scenario: -30 
+[17:34:997] [FINE  ] 1 - score: -30 
+[17:34:998] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[17:34:999] [FINE  ] WHITE's scenario: 60 
+[17:34:999] [FINE  ] 1 - score: 60 
+[17:34:999] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[17:35:000] [FINE  ] WHITE's scenario: -60 
+[17:35:001] [FINE  ] 1 - score: -60 
+[17:35:001] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[17:35:002] [FINE  ] WHITE's scenario: -60 
+[17:35:002] [FINE  ] 1 - score: -60 
+[17:35:002] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[17:35:003] [FINE  ] WHITE's scenario: -60 
+[17:35:004] [FINE  ] 1 - score: -60 
+[17:35:004] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:35:005] [FINE  ] WHITE's scenario: -60 
+[17:35:005] [FINE  ] 1 - score: -60 
+[17:35:005] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:35:006] [FINE  ] WHITE's scenario: -60 
+[17:35:007] [FINE  ] 1 - score: -60 
+[17:35:007] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[17:35:008] [FINE  ] WHITE's scenario: -60 
+[17:35:009] [FINE  ] 1 - score: -60 
+[17:35:009] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[17:35:010] [FINE  ] WHITE's scenario: -90 
+[17:35:010] [FINE  ] 1 - score: -90 
+[17:35:010] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[17:35:011] [FINE  ] WHITE's scenario: -90 
+[17:35:012] [FINE  ] 1 - score: -90 
+[17:35:012] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[17:35:013] [FINE  ] WHITE's scenario: -90 
+[17:35:013] [FINE  ] 1 - score: -90 
+[17:35:013] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[17:35:014] [FINE  ] WHITE's scenario: -90 
+[17:35:015] [FINE  ] 1 - score: -90 
+[17:35:015] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[17:35:016] [FINE  ] WHITE's scenario: -90 
+[17:35:016] [FINE  ] 1 - score: -90 
+[17:35:016] [FINE  ] BLACK best move409 and depth is 1 best score is 110(Branch factor:18; Scenarios Evaluated:18) 
+[17:35:017] [FINE  ] 2 - score: 110 
+[17:35:017] [FINE  ] 2 - Try placing WHITE at: 4,8 
+[17:35:019] [FINE  ] 1 - Try placing BLACK at: 6,9 
+[17:35:020] [FINE  ] WHITE's scenario: 190 
+[17:35:020] [FINE  ] 1 - score: 190 
+[17:35:021] [FINE  ] BLACK best move609 and depth is 1 best score is 190(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:021] [FINE  ] 2 - score: 190 
+[17:35:021] [FINE  ] 2 - Try placing WHITE at: 6,8 
+[17:35:022] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:35:024] [FINE  ] WHITE's scenario: 190 
+[17:35:024] [FINE  ] 1 - score: 190 
+[17:35:026] [FINE  ] BLACK best move409 and depth is 1 best score is 190(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:026] [FINE  ] 2 - score: 190 
+[17:35:027] [FINE  ] 2 - Try placing WHITE at: 3,7 
+[17:35:029] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:35:030] [FINE  ] WHITE's scenario: 260 
+[17:35:030] [FINE  ] 1 - score: 260 
+[17:35:030] [FINE  ] BLACK best move409 and depth is 1 best score is 260(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:031] [FINE  ] 2 - score: 260 
+[17:35:031] [FINE  ] 2 - Try placing WHITE at: 3,8 
+[17:35:033] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:35:034] [FINE  ] WHITE's scenario: 260 
+[17:35:034] [FINE  ] 1 - score: 260 
+[17:35:034] [FINE  ] BLACK best move409 and depth is 1 best score is 260(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:035] [FINE  ] 2 - score: 260 
+[17:35:035] [FINE  ] 2 - Try placing WHITE at: 4,5 
+[17:35:037] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:35:038] [FINE  ] WHITE's scenario: 260 
+[17:35:039] [FINE  ] 1 - score: 260 
+[17:35:039] [FINE  ] BLACK best move409 and depth is 1 best score is 260(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:039] [FINE  ] 2 - score: 260 
+[17:35:039] [FINE  ] 2 - Try placing WHITE at: 5,9 
+[17:35:041] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:35:042] [FINE  ] WHITE's scenario: 260 
+[17:35:043] [FINE  ] 1 - score: 260 
+[17:35:043] [FINE  ] BLACK best move409 and depth is 1 best score is 260(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:043] [FINE  ] 2 - score: 260 
+[17:35:043] [FINE  ] 2 - Try placing WHITE at: 6,5 
+[17:35:045] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:35:046] [FINE  ] WHITE's scenario: 260 
+[17:35:046] [FINE  ] 1 - score: 260 
+[17:35:047] [FINE  ] BLACK best move409 and depth is 1 best score is 260(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:047] [FINE  ] 2 - score: 260 
+[17:35:047] [FINE  ] 2 - Try placing WHITE at: 7,7 
+[17:35:049] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:35:050] [FINE  ] WHITE's scenario: 260 
+[17:35:050] [FINE  ] 1 - score: 260 
+[17:35:051] [FINE  ] BLACK best move409 and depth is 1 best score is 260(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:051] [FINE  ] 2 - score: 260 
+[17:35:051] [FINE  ] 2 - Try placing WHITE at: 7,8 
+[17:35:053] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:35:055] [FINE  ] WHITE's scenario: 260 
+[17:35:055] [FINE  ] 1 - score: 260 
+[17:35:055] [FINE  ] BLACK best move409 and depth is 1 best score is 260(Branch factor:1; Scenarios Evaluated:1) 
+[17:35:055] [FINE  ] 2 - score: 260 
+[17:35:056] [FINE  ] WHITE best move505 and depth is 2 best score is 110(Branch factor:16; Scenarios Evaluated:51) 
+[17:41:651] [FINE  ] 2 - Try placing WHITE at: 4,9 
+[17:41:654] [FINE  ] 1 - Try placing BLACK at: 8,5 
+[17:41:658] [FINE  ] WHITE's scenario: 280 
+[17:41:658] [FINE  ] 1 - score: 280 
+[17:41:659] [FINE  ] 1 - Try placing BLACK at: 6,9 
+[17:41:661] [FINE  ] WHITE's scenario: 130 
+[17:41:661] [FINE  ] 1 - score: 130 
+[17:41:662] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:41:666] [FINE  ] WHITE's scenario: 100 
+[17:41:666] [FINE  ] 1 - score: 100 
+[17:41:666] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[17:41:668] [FINE  ] WHITE's scenario: 110 
+[17:41:668] [FINE  ] 1 - score: 110 
+[17:41:668] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:41:670] [FINE  ] WHITE's scenario: -10 
+[17:41:670] [FINE  ] 1 - score: -10 
+[17:41:670] [FINE  ] 1 - Try placing BLACK at: 6,8 
+[17:41:672] [FINE  ] WHITE's scenario: -10 
+[17:41:673] [FINE  ] 1 - score: -10 
+[17:41:673] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[17:41:675] [FINE  ] WHITE's scenario: -10 
+[17:41:676] [FINE  ] 1 - score: -10 
+[17:41:676] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[17:41:677] [FINE  ] WHITE's scenario: -40 
+[17:41:678] [FINE  ] 1 - score: -40 
+[17:41:678] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[17:41:679] [FINE  ] WHITE's scenario: -40 
+[17:41:679] [FINE  ] 1 - score: -40 
+[17:41:680] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[17:41:681] [FINE  ] WHITE's scenario: -40 
+[17:41:681] [FINE  ] 1 - score: -40 
+[17:41:682] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[17:41:683] [FINE  ] WHITE's scenario: -40 
+[17:41:683] [FINE  ] 1 - score: -40 
+[17:41:683] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:41:685] [FINE  ] WHITE's scenario: -40 
+[17:41:685] [FINE  ] 1 - score: -40 
+[17:41:685] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[17:41:686] [FINE  ] WHITE's scenario: -40 
+[17:41:687] [FINE  ] 1 - score: -40 
+[17:41:687] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[17:41:688] [FINE  ] WHITE's scenario: -40 
+[17:41:688] [FINE  ] 1 - score: -40 
+[17:41:689] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[17:41:690] [FINE  ] WHITE's scenario: -40 
+[17:41:690] [FINE  ] 1 - score: -40 
+[17:41:690] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[17:41:692] [FINE  ] WHITE's scenario: -40 
+[17:41:692] [FINE  ] 1 - score: -40 
+[17:41:692] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[17:41:693] [FINE  ] WHITE's scenario: -70 
+[17:41:693] [FINE  ] 1 - score: -70 
+[17:41:694] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[17:41:694] [FINE  ] WHITE's scenario: -70 
+[17:41:695] [FINE  ] 1 - score: -70 
+[17:41:695] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[17:41:696] [FINE  ] WHITE's scenario: -70 
+[17:41:696] [FINE  ] 1 - score: -70 
+[17:41:696] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[17:41:697] [FINE  ] WHITE's scenario: -70 
+[17:41:697] [FINE  ] 1 - score: -70 
+[17:41:697] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[17:41:698] [FINE  ] WHITE's scenario: -70 
+[17:41:699] [FINE  ] 1 - score: -70 
+[17:41:699] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[17:41:700] [FINE  ] WHITE's scenario: -70 
+[17:41:700] [FINE  ] 1 - score: -70 
+[17:41:700] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[17:41:701] [FINE  ] WHITE's scenario: -70 
+[17:41:701] [FINE  ] 1 - score: -70 
+[17:41:702] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[17:41:702] [FINE  ] WHITE's scenario: -70 
+[17:41:703] [FINE  ] 1 - score: -70 
+[17:41:703] [FINE  ] BLACK best move805 and depth is 1 best score is 280(Branch factor:24; Scenarios Evaluated:24) 
+[17:41:703] [FINE  ] 2 - score: 280 
+[17:41:703] [FINE  ] 2 - Try placing WHITE at: 8,5 
+[17:41:705] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:707] [FINE  ] WHITE's scenario: 310 
+[17:41:707] [FINE  ] 1 - score: 310 
+[17:41:707] [FINE  ] BLACK best move409 and depth is 1 best score is 310(Branch factor:1; Scenarios Evaluated:1) 
+[17:41:707] [FINE  ] 2 - score: 310 
+[17:41:707] [FINE  ] 2 - Try placing WHITE at: 5,4 
+[17:41:710] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:711] [FINE  ] WHITE's scenario: 21060 
+[17:41:711] [FINE  ] 1 - score: 21060 
+[17:41:712] [FINE  ] 2 - score: 21060 
+[17:41:712] [FINE  ] 2 - Try placing WHITE at: 3,6 
+[17:41:714] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:718] [FINE  ] WHITE's scenario: 29810 
+[17:41:718] [FINE  ] 1 - score: 29810 
+[17:41:719] [FINE  ] 2 - score: 29810 
+[17:41:719] [FINE  ] 2 - Try placing WHITE at: 6,9 
+[17:41:721] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:722] [FINE  ] WHITE's scenario: 29880 
+[17:41:722] [FINE  ] 1 - score: 29880 
+[17:41:722] [FINE  ] 2 - score: 29880 
+[17:41:722] [FINE  ] 2 - Try placing WHITE at: 4,6 
+[17:41:725] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:726] [FINE  ] WHITE's scenario: 29670 
+[17:41:726] [FINE  ] 1 - score: 29670 
+[17:41:726] [FINE  ] 2 - score: 29670 
+[17:41:726] [FINE  ] 2 - Try placing WHITE at: 6,6 
+[17:41:728] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:729] [FINE  ] WHITE's scenario: 29700 
+[17:41:730] [FINE  ] 1 - score: 29700 
+[17:41:730] [FINE  ] 2 - score: 29700 
+[17:41:730] [FINE  ] 2 - Try placing WHITE at: 7,5 
+[17:41:732] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:733] [FINE  ] WHITE's scenario: 29770 
+[17:41:734] [FINE  ] 1 - score: 29770 
+[17:41:734] [FINE  ] 2 - score: 29770 
+[17:41:734] [FINE  ] 2 - Try placing WHITE at: 3,7 
+[17:41:736] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:737] [FINE  ] WHITE's scenario: 29840 
+[17:41:737] [FINE  ] 1 - score: 29840 
+[17:41:737] [FINE  ] 2 - score: 29840 
+[17:41:737] [FINE  ] 2 - Try placing WHITE at: 4,4 
+[17:41:740] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:742] [FINE  ] WHITE's scenario: 29770 
+[17:41:742] [FINE  ] 1 - score: 29770 
+[17:41:742] [FINE  ] 2 - score: 29770 
+[17:41:742] [FINE  ] 2 - Try placing WHITE at: 4,5 
+[17:41:744] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:745] [FINE  ] WHITE's scenario: 29840 
+[17:41:745] [FINE  ] 1 - score: 29840 
+[17:41:745] [FINE  ] 2 - score: 29840 
+[17:41:745] [FINE  ] 2 - Try placing WHITE at: 4,8 
+[17:41:747] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:748] [FINE  ] WHITE's scenario: 29810 
+[17:41:748] [FINE  ] 1 - score: 29810 
+[17:41:748] [FINE  ] 2 - score: 29810 
+[17:41:748] [FINE  ] 2 - Try placing WHITE at: 6,4 
+[17:41:750] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:751] [FINE  ] WHITE's scenario: 29840 
+[17:41:752] [FINE  ] 1 - score: 29840 
+[17:41:752] [FINE  ] 2 - score: 29840 
+[17:41:752] [FINE  ] 2 - Try placing WHITE at: 6,5 
+[17:41:754] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:755] [FINE  ] WHITE's scenario: 29840 
+[17:41:755] [FINE  ] 1 - score: 29840 
+[17:41:755] [FINE  ] 2 - score: 29840 
+[17:41:755] [FINE  ] 2 - Try placing WHITE at: 6,8 
+[17:41:757] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:758] [FINE  ] WHITE's scenario: 29840 
+[17:41:758] [FINE  ] 1 - score: 29840 
+[17:41:758] [FINE  ] 2 - score: 29840 
+[17:41:758] [FINE  ] 2 - Try placing WHITE at: 7,7 
+[17:41:761] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:762] [FINE  ] WHITE's scenario: 29770 
+[17:41:762] [FINE  ] 1 - score: 29770 
+[17:41:762] [FINE  ] 2 - score: 29770 
+[17:41:762] [FINE  ] 2 - Try placing WHITE at: 3,8 
+[17:41:764] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:765] [FINE  ] WHITE's scenario: 29910 
+[17:41:766] [FINE  ] 1 - score: 29910 
+[17:41:766] [FINE  ] 2 - score: 29910 
+[17:41:766] [FINE  ] 2 - Try placing WHITE at: 5,9 
+[17:41:769] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:770] [FINE  ] WHITE's scenario: 29910 
+[17:41:770] [FINE  ] 1 - score: 29910 
+[17:41:770] [FINE  ] 2 - score: 29910 
+[17:41:770] [FINE  ] 2 - Try placing WHITE at: 7,8 
+[17:41:773] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:774] [FINE  ] WHITE's scenario: 29910 
+[17:41:774] [FINE  ] 1 - score: 29910 
+[17:41:774] [FINE  ] 2 - score: 29910 
+[17:41:775] [FINE  ] 2 - Try placing WHITE at: 8,6 
+[17:41:776] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:777] [FINE  ] WHITE's scenario: 29910 
+[17:41:777] [FINE  ] 1 - score: 29910 
+[17:41:777] [FINE  ] 2 - score: 29910 
+[17:41:777] [FINE  ] 2 - Try placing WHITE at: 8,7 
+[17:41:779] [FINE  ] 1 - Try placing BLACK at: 4,9 
+[17:41:781] [FINE  ] WHITE's scenario: 29910 
+[17:41:781] [FINE  ] 1 - score: 29910 
+[17:41:781] [FINE  ] 2 - score: 29910 
+[17:41:781] [FINE  ] WHITE best move409 and depth is 2 best score is 280(Branch factor:21; Scenarios Evaluated:44) 
+[17:50:493] [FINE  ] 2 - Try placing WHITE at: 3,6 
+[17:50:496] [FINE  ] 1 - Try placing BLACK at: 7,10 
+[17:50:498] [FINE  ] WHITE's scenario: 260 
+[17:50:498] [FINE  ] 1 - score: 260 
+[17:50:498] [FINE  ] 1 - Try placing BLACK at: 8,5 
+[17:50:500] [FINE  ] WHITE's scenario: 260 
+[17:50:501] [FINE  ] 1 - score: 260 
+[17:50:501] [FINE  ] 1 - Try placing BLACK at: 6,8 
+[17:50:503] [FINE  ] WHITE's scenario: 110 
+[17:50:504] [FINE  ] 1 - score: 110 
+[17:50:504] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:50:507] [FINE  ] WHITE's scenario: 100 
+[17:50:507] [FINE  ] 1 - score: 100 
+[17:50:507] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:50:510] [FINE  ] WHITE's scenario: 30 
+[17:50:510] [FINE  ] 1 - score: 30 
+[17:50:510] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[17:50:512] [FINE  ] WHITE's scenario: 10 
+[17:50:512] [FINE  ] 1 - score: 10 
+[17:50:512] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[17:50:515] [FINE  ] WHITE's scenario: 0 
+[17:50:516] [FINE  ] 1 - score: 0 
+[17:50:516] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[17:50:517] [FINE  ] WHITE's scenario: 90 
+[17:50:518] [FINE  ] 1 - score: 90 
+[17:50:518] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:50:520] [FINE  ] WHITE's scenario: -60 
+[17:50:520] [FINE  ] 1 - score: -60 
+[17:50:520] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[17:50:521] [FINE  ] WHITE's scenario: -30 
+[17:50:521] [FINE  ] 1 - score: -30 
+[17:50:521] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[17:50:524] [FINE  ] WHITE's scenario: -60 
+[17:50:525] [FINE  ] 1 - score: -60 
+[17:50:525] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[17:50:527] [FINE  ] WHITE's scenario: -60 
+[17:50:527] [FINE  ] 1 - score: -60 
+[17:50:528] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[17:50:529] [FINE  ] WHITE's scenario: -60 
+[17:50:530] [FINE  ] 1 - score: -60 
+[17:50:530] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[17:50:532] [FINE  ] WHITE's scenario: -60 
+[17:50:532] [FINE  ] 1 - score: -60 
+[17:50:533] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[17:50:535] [FINE  ] WHITE's scenario: -60 
+[17:50:536] [FINE  ] 1 - score: -60 
+[17:50:536] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[17:50:538] [FINE  ] WHITE's scenario: -60 
+[17:50:539] [FINE  ] 1 - score: -60 
+[17:50:539] [FINE  ] 1 - Try placing BLACK at: 7,9 
+[17:50:542] [FINE  ] WHITE's scenario: -60 
+[17:50:543] [FINE  ] 1 - score: -60 
+[17:50:543] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[17:50:547] [FINE  ] WHITE's scenario: -90 
+[17:50:547] [FINE  ] 1 - score: -90 
+[17:50:547] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[17:50:549] [FINE  ] WHITE's scenario: -90 
+[17:50:550] [FINE  ] 1 - score: -90 
+[17:50:551] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[17:50:553] [FINE  ] WHITE's scenario: -20 
+[17:50:554] [FINE  ] 1 - score: -20 
+[17:50:554] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[17:50:556] [FINE  ] WHITE's scenario: -90 
+[17:50:557] [FINE  ] 1 - score: -90 
+[17:50:557] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[17:50:560] [FINE  ] WHITE's scenario: -90 
+[17:50:560] [FINE  ] 1 - score: -90 
+[17:50:560] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[17:50:561] [FINE  ] WHITE's scenario: -90 
+[17:50:562] [FINE  ] 1 - score: -90 
+[17:50:562] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[17:50:563] [FINE  ] WHITE's scenario: -90 
+[17:50:563] [FINE  ] 1 - score: -90 
+[17:50:563] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[17:50:564] [FINE  ] WHITE's scenario: -90 
+[17:50:564] [FINE  ] 1 - score: -90 
+[17:50:564] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[17:50:565] [FINE  ] WHITE's scenario: -90 
+[17:50:565] [FINE  ] 1 - score: -90 
+[17:50:565] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[17:50:566] [FINE  ] WHITE's scenario: -90 
+[17:50:566] [FINE  ] 1 - score: -90 
+[17:50:567] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[17:50:567] [FINE  ] WHITE's scenario: -90 
+[17:50:568] [FINE  ] 1 - score: -90 
+[17:50:568] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[17:50:569] [FINE  ] WHITE's scenario: -90 
+[17:50:569] [FINE  ] 1 - score: -90 
+[17:50:569] [FINE  ] BLACK best move710 and depth is 1 best score is 260(Branch factor:29; Scenarios Evaluated:29) 
+[17:50:569] [FINE  ] 2 - score: 260 
+[17:50:569] [FINE  ] 2 - Try placing WHITE at: 7,10 
+[17:50:572] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:573] [FINE  ] WHITE's scenario: 330 
+[17:50:574] [FINE  ] 1 - score: 330 
+[17:50:574] [FINE  ] BLACK best move306 and depth is 1 best score is 330(Branch factor:1; Scenarios Evaluated:1) 
+[17:50:574] [FINE  ] 2 - score: 330 
+[17:50:574] [FINE  ] 2 - Try placing WHITE at: 5,4 
+[17:50:577] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:578] [FINE  ] WHITE's scenario: 21080 
+[17:50:578] [FINE  ] 1 - score: 21080 
+[17:50:578] [FINE  ] 2 - score: 21080 
+[17:50:578] [FINE  ] 2 - Try placing WHITE at: 6,8 
+[17:50:580] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:581] [FINE  ] WHITE's scenario: 29830 
+[17:50:581] [FINE  ] 1 - score: 29830 
+[17:50:581] [FINE  ] 2 - score: 29830 
+[17:50:581] [FINE  ] 2 - Try placing WHITE at: 4,6 
+[17:50:583] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:584] [FINE  ] WHITE's scenario: 29790 
+[17:50:584] [FINE  ] 1 - score: 29790 
+[17:50:584] [FINE  ] 2 - score: 29790 
+[17:50:584] [FINE  ] 2 - Try placing WHITE at: 3,9 
+[17:50:587] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:588] [FINE  ] WHITE's scenario: 29790 
+[17:50:588] [FINE  ] 1 - score: 29790 
+[17:50:588] [FINE  ] 2 - score: 29790 
+[17:50:589] [FINE  ] 2 - Try placing WHITE at: 6,6 
+[17:50:591] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:592] [FINE  ] WHITE's scenario: 29690 
+[17:50:592] [FINE  ] 1 - score: 29690 
+[17:50:592] [FINE  ] 2 - score: 29690 
+[17:50:593] [FINE  ] 2 - Try placing WHITE at: 7,5 
+[17:50:595] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:596] [FINE  ] WHITE's scenario: 29790 
+[17:50:596] [FINE  ] 1 - score: 29790 
+[17:50:596] [FINE  ] 2 - score: 29790 
+[17:50:596] [FINE  ] 2 - Try placing WHITE at: 8,5 
+[17:50:598] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:600] [FINE  ] WHITE's scenario: 29880 
+[17:50:600] [FINE  ] 1 - score: 29880 
+[17:50:600] [FINE  ] 2 - score: 29880 
+[17:50:600] [FINE  ] 2 - Try placing WHITE at: 3,7 
+[17:50:602] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:603] [FINE  ] WHITE's scenario: 29860 
+[17:50:604] [FINE  ] 1 - score: 29860 
+[17:50:604] [FINE  ] 2 - score: 29860 
+[17:50:604] [FINE  ] 2 - Try placing WHITE at: 3,8 
+[17:50:606] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:607] [FINE  ] WHITE's scenario: 29860 
+[17:50:607] [FINE  ] 1 - score: 29860 
+[17:50:607] [FINE  ] 2 - score: 29860 
+[17:50:607] [FINE  ] 2 - Try placing WHITE at: 4,4 
+[17:50:609] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:610] [FINE  ] WHITE's scenario: 29790 
+[17:50:611] [FINE  ] 1 - score: 29790 
+[17:50:611] [FINE  ] 2 - score: 29790 
+[17:50:611] [FINE  ] 2 - Try placing WHITE at: 4,5 
+[17:50:613] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:614] [FINE  ] WHITE's scenario: 29860 
+[17:50:614] [FINE  ] 1 - score: 29860 
+[17:50:614] [FINE  ] 2 - score: 29860 
+[17:50:614] [FINE  ] 2 - Try placing WHITE at: 4,8 
+[17:50:616] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:617] [FINE  ] WHITE's scenario: 29860 
+[17:50:618] [FINE  ] 1 - score: 29860 
+[17:50:618] [FINE  ] 2 - score: 29860 
+[17:50:618] [FINE  ] 2 - Try placing WHITE at: 4,10 
+[17:50:619] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:620] [FINE  ] WHITE's scenario: 29860 
+[17:50:620] [FINE  ] 1 - score: 29860 
+[17:50:620] [FINE  ] 2 - score: 29860 
+[17:50:620] [FINE  ] 2 - Try placing WHITE at: 5,10 
+[17:50:623] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:624] [FINE  ] WHITE's scenario: 29860 
+[17:50:624] [FINE  ] 1 - score: 29860 
+[17:50:624] [FINE  ] 2 - score: 29860 
+[17:50:625] [FINE  ] 2 - Try placing WHITE at: 6,4 
+[17:50:627] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:627] [FINE  ] WHITE's scenario: 29860 
+[17:50:628] [FINE  ] 1 - score: 29860 
+[17:50:628] [FINE  ] 2 - score: 29860 
+[17:50:628] [FINE  ] 2 - Try placing WHITE at: 6,5 
+[17:50:630] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:631] [FINE  ] WHITE's scenario: 29860 
+[17:50:631] [FINE  ] 1 - score: 29860 
+[17:50:631] [FINE  ] 2 - score: 29860 
+[17:50:631] [FINE  ] 2 - Try placing WHITE at: 7,7 
+[17:50:634] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:634] [FINE  ] WHITE's scenario: 29790 
+[17:50:635] [FINE  ] 1 - score: 29790 
+[17:50:635] [FINE  ] 2 - score: 29790 
+[17:50:635] [FINE  ] 2 - Try placing WHITE at: 7,9 
+[17:50:637] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:639] [FINE  ] WHITE's scenario: 29860 
+[17:50:639] [FINE  ] 1 - score: 29860 
+[17:50:639] [FINE  ] 2 - score: 29860 
+[17:50:639] [FINE  ] 2 - Try placing WHITE at: 3,10 
+[17:50:641] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:642] [FINE  ] WHITE's scenario: 29930 
+[17:50:642] [FINE  ] 1 - score: 29930 
+[17:50:642] [FINE  ] 2 - score: 29930 
+[17:50:642] [FINE  ] 2 - Try placing WHITE at: 5,9 
+[17:50:644] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:644] [FINE  ] WHITE's scenario: 29930 
+[17:50:644] [FINE  ] 1 - score: 29930 
+[17:50:645] [FINE  ] 2 - score: 29930 
+[17:50:645] [FINE  ] 2 - Try placing WHITE at: 6,10 
+[17:50:646] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:647] [FINE  ] WHITE's scenario: 29900 
+[17:50:647] [FINE  ] 1 - score: 29900 
+[17:50:647] [FINE  ] 2 - score: 29900 
+[17:50:647] [FINE  ] 2 - Try placing WHITE at: 7,8 
+[17:50:649] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:650] [FINE  ] WHITE's scenario: 29930 
+[17:50:650] [FINE  ] 1 - score: 29930 
+[17:50:650] [FINE  ] 2 - score: 29930 
+[17:50:650] [FINE  ] 2 - Try placing WHITE at: 8,6 
+[17:50:652] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:653] [FINE  ] WHITE's scenario: 29930 
+[17:50:653] [FINE  ] 1 - score: 29930 
+[17:50:653] [FINE  ] 2 - score: 29930 
+[17:50:653] [FINE  ] 2 - Try placing WHITE at: 8,7 
+[17:50:656] [FINE  ] 1 - Try placing BLACK at: 3,6 
+[17:50:657] [FINE  ] WHITE's scenario: 29930 
+[17:50:657] [FINE  ] 1 - score: 29930 
+[17:50:657] [FINE  ] 2 - score: 29930 
+[17:50:657] [FINE  ] WHITE best move306 and depth is 2 best score is 260(Branch factor:26; Scenarios Evaluated:54) 
+[17:53:069] [FINE  ] 2 - Try placing WHITE at: 8,11 
+[17:53:071] [FINE  ] 1 - Try placing BLACK at: 8,5 
+[17:53:072] [FINE  ] WHITE's scenario: 210 
+[17:53:073] [FINE  ] 1 - score: 210 
+[17:53:073] [FINE  ] 1 - Try placing BLACK at: 6,8 
+[17:53:074] [FINE  ] WHITE's scenario: 60 
+[17:53:074] [FINE  ] 1 - score: 60 
+[17:53:074] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:53:075] [FINE  ] WHITE's scenario: 10 
+[17:53:075] [FINE  ] 1 - score: 10 
+[17:53:076] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:53:076] [FINE  ] WHITE's scenario: 50 
+[17:53:076] [FINE  ] 1 - score: 50 
+[17:53:076] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[17:53:077] [FINE  ] WHITE's scenario: -40 
+[17:53:077] [FINE  ] 1 - score: -40 
+[17:53:077] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[17:53:078] [FINE  ] WHITE's scenario: -50 
+[17:53:078] [FINE  ] 1 - score: -50 
+[17:53:078] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[17:53:079] [FINE  ] WHITE's scenario: 40 
+[17:53:079] [FINE  ] 1 - score: 40 
+[17:53:079] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[17:53:080] [FINE  ] WHITE's scenario: -80 
+[17:53:080] [FINE  ] 1 - score: -80 
+[17:53:080] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:53:081] [FINE  ] WHITE's scenario: -110 
+[17:53:081] [FINE  ] 1 - score: -110 
+[17:53:081] [FINE  ] 1 - Try placing BLACK at: 6,11 
+[17:53:082] [FINE  ] WHITE's scenario: -110 
+[17:53:083] [FINE  ] 1 - score: -110 
+[17:53:083] [FINE  ] 1 - Try placing BLACK at: 7,9 
+[17:53:084] [FINE  ] WHITE's scenario: -80 
+[17:53:084] [FINE  ] 1 - score: -80 
+[17:53:084] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[17:53:085] [FINE  ] WHITE's scenario: -80 
+[17:53:085] [FINE  ] 1 - score: -80 
+[17:53:085] [FINE  ] 1 - Try placing BLACK at: 8,9 
+[17:53:086] [FINE  ] WHITE's scenario: -80 
+[17:53:086] [FINE  ] 1 - score: -80 
+[17:53:086] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[17:53:087] [FINE  ] WHITE's scenario: -110 
+[17:53:087] [FINE  ] 1 - score: -110 
+[17:53:087] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[17:53:088] [FINE  ] WHITE's scenario: -110 
+[17:53:088] [FINE  ] 1 - score: -110 
+[17:53:089] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[17:53:089] [FINE  ] WHITE's scenario: -110 
+[17:53:090] [FINE  ] 1 - score: -110 
+[17:53:090] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[17:53:091] [FINE  ] WHITE's scenario: -110 
+[17:53:091] [FINE  ] 1 - score: -110 
+[17:53:091] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[17:53:092] [FINE  ] WHITE's scenario: -110 
+[17:53:092] [FINE  ] 1 - score: -110 
+[17:53:092] [FINE  ] 1 - Try placing BLACK at: 7,11 
+[17:53:093] [FINE  ] WHITE's scenario: -110 
+[17:53:093] [FINE  ] 1 - score: -110 
+[17:53:093] [FINE  ] 1 - Try placing BLACK at: 7,12 
+[17:53:094] [FINE  ] WHITE's scenario: -110 
+[17:53:094] [FINE  ] 1 - score: -110 
+[17:53:094] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[17:53:095] [FINE  ] WHITE's scenario: -140 
+[17:53:095] [FINE  ] 1 - score: -140 
+[17:53:095] [FINE  ] 1 - Try placing BLACK at: 8,10 
+[17:53:096] [FINE  ] WHITE's scenario: -110 
+[17:53:096] [FINE  ] 1 - score: -110 
+[17:53:096] [FINE  ] 1 - Try placing BLACK at: 9,10 
+[17:53:096] [FINE  ] WHITE's scenario: -110 
+[17:53:097] [FINE  ] 1 - score: -110 
+[17:53:097] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[17:53:098] [FINE  ] WHITE's scenario: -140 
+[17:53:098] [FINE  ] 1 - score: -140 
+[17:53:098] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[17:53:099] [FINE  ] WHITE's scenario: -70 
+[17:53:099] [FINE  ] 1 - score: -70 
+[17:53:099] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[17:53:100] [FINE  ] WHITE's scenario: -140 
+[17:53:101] [FINE  ] 1 - score: -140 
+[17:53:101] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[17:53:102] [FINE  ] WHITE's scenario: -140 
+[17:53:102] [FINE  ] 1 - score: -140 
+[17:53:102] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[17:53:103] [FINE  ] WHITE's scenario: -140 
+[17:53:103] [FINE  ] 1 - score: -140 
+[17:53:103] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[17:53:104] [FINE  ] WHITE's scenario: -140 
+[17:53:104] [FINE  ] 1 - score: -140 
+[17:53:105] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[17:53:106] [FINE  ] WHITE's scenario: -140 
+[17:53:106] [FINE  ] 1 - score: -140 
+[17:53:106] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[17:53:107] [FINE  ] WHITE's scenario: -140 
+[17:53:107] [FINE  ] 1 - score: -140 
+[17:53:107] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[17:53:108] [FINE  ] WHITE's scenario: -140 
+[17:53:108] [FINE  ] 1 - score: -140 
+[17:53:108] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[17:53:109] [FINE  ] WHITE's scenario: -140 
+[17:53:110] [FINE  ] 1 - score: -140 
+[17:53:110] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[17:53:110] [FINE  ] WHITE's scenario: -140 
+[17:53:111] [FINE  ] 1 - score: -140 
+[17:53:111] [FINE  ] 1 - Try placing BLACK at: 8,12 
+[17:53:111] [FINE  ] WHITE's scenario: -140 
+[17:53:112] [FINE  ] 1 - score: -140 
+[17:53:112] [FINE  ] 1 - Try placing BLACK at: 9,11 
+[17:53:114] [FINE  ] WHITE's scenario: -140 
+[17:53:114] [FINE  ] 1 - score: -140 
+[17:53:114] [FINE  ] 1 - Try placing BLACK at: 9,12 
+[17:53:115] [FINE  ] WHITE's scenario: -140 
+[17:53:115] [FINE  ] 1 - score: -140 
+[17:53:115] [FINE  ] BLACK best move805 and depth is 1 best score is 210(Branch factor:37; Scenarios Evaluated:37) 
+[17:53:115] [FINE  ] 2 - score: 210 
+[17:54:932] [FINE  ] 2 - Try placing WHITE at: 6,6 
+[17:54:935] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[17:54:936] [FINE  ] WHITE's scenario: -200 
+[17:54:936] [FINE  ] 1 - score: -200 
+[17:54:936] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:54:939] [FINE  ] WHITE's scenario: 0 
+[17:54:939] [FINE  ] 1 - score: 0 
+[17:54:939] [FINE  ] 1 - Try placing BLACK at: 6,11 
+[17:54:942] [FINE  ] WHITE's scenario: 0 
+[17:54:942] [FINE  ] 1 - score: 0 
+[17:54:942] [FINE  ] 1 - Try placing BLACK at: 8,5 
+[17:54:944] [FINE  ] WHITE's scenario: -30 
+[17:54:944] [FINE  ] 1 - score: -30 
+[17:54:944] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[17:54:947] [FINE  ] WHITE's scenario: -140 
+[17:54:947] [FINE  ] 1 - score: -140 
+[17:54:947] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[17:54:948] [FINE  ] WHITE's scenario: -150 
+[17:54:948] [FINE  ] 1 - score: -150 
+[17:54:949] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[17:54:952] [FINE  ] WHITE's scenario: -180 
+[17:54:953] [FINE  ] 1 - score: -180 
+[17:54:953] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[17:54:954] [FINE  ] WHITE's scenario: -260 
+[17:54:954] [FINE  ] 1 - score: -260 
+[17:54:954] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[17:54:955] [FINE  ] WHITE's scenario: -280 
+[17:54:956] [FINE  ] 1 - score: -280 
+[17:54:956] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[17:54:957] [FINE  ] WHITE's scenario: -240 
+[17:54:957] [FINE  ] 1 - score: -240 
+[17:54:957] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[17:54:959] [FINE  ] WHITE's scenario: -200 
+[17:54:959] [FINE  ] 1 - score: -200 
+[17:54:959] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[17:54:960] [FINE  ] WHITE's scenario: -320 
+[17:54:961] [FINE  ] 1 - score: -320 
+[17:54:961] [FINE  ] 1 - Try placing BLACK at: 7,9 
+[17:54:962] [FINE  ] WHITE's scenario: -320 
+[17:54:962] [FINE  ] 1 - score: -320 
+[17:54:962] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[17:54:963] [FINE  ] WHITE's scenario: -320 
+[17:54:964] [FINE  ] 1 - score: -320 
+[17:54:964] [FINE  ] 1 - Try placing BLACK at: 8,9 
+[17:54:965] [FINE  ] WHITE's scenario: -320 
+[17:54:965] [FINE  ] 1 - score: -320 
+[17:54:965] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[17:54:966] [FINE  ] WHITE's scenario: -350 
+[17:54:966] [FINE  ] 1 - score: -350 
+[17:54:966] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[17:54:967] [FINE  ] WHITE's scenario: -350 
+[17:54:967] [FINE  ] 1 - score: -350 
+[17:54:967] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[17:54:968] [FINE  ] WHITE's scenario: -350 
+[17:54:969] [FINE  ] 1 - score: -350 
+[17:54:969] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:54:970] [FINE  ] WHITE's scenario: -350 
+[17:54:970] [FINE  ] 1 - score: -350 
+[17:54:970] [FINE  ] 1 - Try placing BLACK at: 7,11 
+[17:54:971] [FINE  ] WHITE's scenario: -350 
+[17:54:971] [FINE  ] 1 - score: -350 
+[17:54:971] [FINE  ] 1 - Try placing BLACK at: 7,12 
+[17:54:972] [FINE  ] WHITE's scenario: -350 
+[17:54:973] [FINE  ] 1 - score: -350 
+[17:54:973] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[17:54:974] [FINE  ] WHITE's scenario: -350 
+[17:54:975] [FINE  ] 1 - score: -350 
+[17:54:975] [FINE  ] 1 - Try placing BLACK at: 8,10 
+[17:54:976] [FINE  ] WHITE's scenario: -350 
+[17:54:976] [FINE  ] 1 - score: -350 
+[17:54:977] [FINE  ] 1 - Try placing BLACK at: 9,10 
+[17:54:977] [FINE  ] WHITE's scenario: -350 
+[17:54:978] [FINE  ] 1 - score: -350 
+[17:54:978] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[17:54:978] [FINE  ] WHITE's scenario: -380 
+[17:54:979] [FINE  ] 1 - score: -380 
+[17:54:979] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[17:54:980] [FINE  ] WHITE's scenario: -230 
+[17:54:980] [FINE  ] 1 - score: -230 
+[17:54:981] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[17:54:982] [FINE  ] WHITE's scenario: -380 
+[17:54:982] [FINE  ] 1 - score: -380 
+[17:54:982] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[17:54:984] [FINE  ] WHITE's scenario: -380 
+[17:54:984] [FINE  ] 1 - score: -380 
+[17:54:984] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[17:54:985] [FINE  ] WHITE's scenario: -380 
+[17:54:985] [FINE  ] 1 - score: -380 
+[17:54:985] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[17:54:986] [FINE  ] WHITE's scenario: -380 
+[17:54:986] [FINE  ] 1 - score: -380 
+[17:54:986] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[17:54:987] [FINE  ] WHITE's scenario: -380 
+[17:54:987] [FINE  ] 1 - score: -380 
+[17:54:987] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[17:54:989] [FINE  ] WHITE's scenario: -380 
+[17:54:989] [FINE  ] 1 - score: -380 
+[17:54:989] [FINE  ] 1 - Try placing BLACK at: 8,12 
+[17:54:990] [FINE  ] WHITE's scenario: -380 
+[17:54:990] [FINE  ] 1 - score: -380 
+[17:54:990] [FINE  ] 1 - Try placing BLACK at: 9,11 
+[17:54:991] [FINE  ] WHITE's scenario: -380 
+[17:54:991] [FINE  ] 1 - score: -380 
+[17:54:992] [FINE  ] 1 - Try placing BLACK at: 9,12 
+[17:54:992] [FINE  ] WHITE's scenario: -380 
+[17:54:993] [FINE  ] 1 - score: -380 
+[17:54:993] [FINE  ] BLACK best move610 and depth is 1 best score is 0(Branch factor:35; Scenarios Evaluated:35) 
+[17:54:993] [FINE  ] 2 - score: 0 
+[17:54:993] [FINE  ] 2 - Try placing WHITE at: 6,10 
+[17:54:995] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[17:54:996] [FINE  ] WHITE's scenario: 290 
+[17:54:997] [FINE  ] 1 - score: 290 
+[17:54:997] [FINE  ] BLACK best move605 and depth is 1 best score is 290(Branch factor:1; Scenarios Evaluated:1) 
+[17:54:997] [FINE  ] 2 - score: 290 
+[17:54:997] [FINE  ] 2 - Try placing WHITE at: 5,4 
+[17:54:999] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:000] [FINE  ] WHITE's scenario: 20970 
+[17:55:001] [FINE  ] 1 - score: 20970 
+[17:55:001] [FINE  ] 2 - score: 20970 
+[17:55:001] [FINE  ] 2 - Try placing WHITE at: 4,6 
+[17:55:004] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:55:005] [FINE  ] WHITE's scenario: 29710 
+[17:55:005] [FINE  ] 1 - score: 29710 
+[17:55:005] [FINE  ] 2 - score: 29710 
+[17:55:005] [FINE  ] 2 - Try placing WHITE at: 2,6 
+[17:55:008] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:010] [FINE  ] WHITE's scenario: 28960 
+[17:55:010] [FINE  ] 1 - score: 28960 
+[17:55:010] [FINE  ] 2 - score: 28960 
+[17:55:010] [FINE  ] 2 - Try placing WHITE at: 4,8 
+[17:55:013] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:55:014] [FINE  ] WHITE's scenario: 29900 
+[17:55:014] [FINE  ] 1 - score: 29900 
+[17:55:014] [FINE  ] 2 - score: 29900 
+[17:55:015] [FINE  ] 2 - Try placing WHITE at: 7,8 
+[17:55:017] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:018] [FINE  ] WHITE's scenario: 29860 
+[17:55:018] [FINE  ] 1 - score: 29860 
+[17:55:018] [FINE  ] 2 - score: 29860 
+[17:55:018] [FINE  ] 2 - Try placing WHITE at: 2,7 
+[17:55:020] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:021] [FINE  ] WHITE's scenario: 29750 
+[17:55:022] [FINE  ] 1 - score: 29750 
+[17:55:022] [FINE  ] 2 - score: 29750 
+[17:55:022] [FINE  ] 2 - Try placing WHITE at: 3,5 
+[17:55:024] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:026] [FINE  ] WHITE's scenario: 29750 
+[17:55:026] [FINE  ] 1 - score: 29750 
+[17:55:026] [FINE  ] 2 - score: 29750 
+[17:55:026] [FINE  ] 2 - Try placing WHITE at: 3,7 
+[17:55:028] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:029] [FINE  ] WHITE's scenario: 29750 
+[17:55:029] [FINE  ] 1 - score: 29750 
+[17:55:029] [FINE  ] 2 - score: 29750 
+[17:55:030] [FINE  ] 2 - Try placing WHITE at: 3,8 
+[17:55:032] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:034] [FINE  ] WHITE's scenario: 29750 
+[17:55:034] [FINE  ] 1 - score: 29750 
+[17:55:034] [FINE  ] 2 - score: 29750 
+[17:55:034] [FINE  ] 2 - Try placing WHITE at: 3,9 
+[17:55:036] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:037] [FINE  ] WHITE's scenario: 29750 
+[17:55:038] [FINE  ] 1 - score: 29750 
+[17:55:038] [FINE  ] 2 - score: 29750 
+[17:55:038] [FINE  ] 2 - Try placing WHITE at: 4,5 
+[17:55:041] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:042] [FINE  ] WHITE's scenario: 29750 
+[17:55:042] [FINE  ] 1 - score: 29750 
+[17:55:042] [FINE  ] 2 - score: 29750 
+[17:55:042] [FINE  ] 2 - Try placing WHITE at: 6,11 
+[17:55:045] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:55:046] [FINE  ] WHITE's scenario: 29790 
+[17:55:046] [FINE  ] 1 - score: 29790 
+[17:55:046] [FINE  ] 2 - score: 29790 
+[17:55:046] [FINE  ] 2 - Try placing WHITE at: 7,5 
+[17:55:048] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:55:049] [FINE  ] WHITE's scenario: 29860 
+[17:55:049] [FINE  ] 1 - score: 29860 
+[17:55:049] [FINE  ] 2 - score: 29860 
+[17:55:049] [FINE  ] 2 - Try placing WHITE at: 8,5 
+[17:55:052] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:053] [FINE  ] WHITE's scenario: 29840 
+[17:55:053] [FINE  ] 1 - score: 29840 
+[17:55:053] [FINE  ] 2 - score: 29840 
+[17:55:053] [FINE  ] 2 - Try placing WHITE at: 4,4 
+[17:55:056] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:55:058] [FINE  ] WHITE's scenario: 29930 
+[17:55:058] [FINE  ] 1 - score: 29930 
+[17:55:058] [FINE  ] 2 - score: 29930 
+[17:55:058] [FINE  ] 2 - Try placing WHITE at: 4,10 
+[17:55:060] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:061] [FINE  ] WHITE's scenario: 29820 
+[17:55:061] [FINE  ] 1 - score: 29820 
+[17:55:061] [FINE  ] 2 - score: 29820 
+[17:55:062] [FINE  ] 2 - Try placing WHITE at: 5,10 
+[17:55:064] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:55:065] [FINE  ] WHITE's scenario: 29860 
+[17:55:065] [FINE  ] 1 - score: 29860 
+[17:55:065] [FINE  ] 2 - score: 29860 
+[17:55:065] [FINE  ] 2 - Try placing WHITE at: 6,4 
+[17:55:069] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:070] [FINE  ] WHITE's scenario: 29820 
+[17:55:070] [FINE  ] 1 - score: 29820 
+[17:55:070] [FINE  ] 2 - score: 29820 
+[17:55:070] [FINE  ] 2 - Try placing WHITE at: 6,5 
+[17:55:073] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:074] [FINE  ] WHITE's scenario: 29820 
+[17:55:074] [FINE  ] 1 - score: 29820 
+[17:55:075] [FINE  ] 2 - score: 29820 
+[17:55:075] [FINE  ] 2 - Try placing WHITE at: 7,7 
+[17:55:076] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:55:077] [FINE  ] WHITE's scenario: 29930 
+[17:55:077] [FINE  ] 1 - score: 29930 
+[17:55:077] [FINE  ] 2 - score: 29930 
+[17:55:078] [FINE  ] 2 - Try placing WHITE at: 7,11 
+[17:55:080] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:081] [FINE  ] WHITE's scenario: 29820 
+[17:55:081] [FINE  ] 1 - score: 29820 
+[17:55:081] [FINE  ] 2 - score: 29820 
+[17:55:081] [FINE  ] 2 - Try placing WHITE at: 7,12 
+[17:55:083] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:084] [FINE  ] WHITE's scenario: 29820 
+[17:55:084] [FINE  ] 1 - score: 29820 
+[17:55:084] [FINE  ] 2 - score: 29820 
+[17:55:084] [FINE  ] 2 - Try placing WHITE at: 8,9 
+[17:55:086] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:087] [FINE  ] WHITE's scenario: 29820 
+[17:55:087] [FINE  ] 1 - score: 29820 
+[17:55:087] [FINE  ] 2 - score: 29820 
+[17:55:087] [FINE  ] 2 - Try placing WHITE at: 8,10 
+[17:55:090] [FINE  ] 1 - Try placing BLACK at: 6,6 
+[17:55:091] [FINE  ] WHITE's scenario: 29860 
+[17:55:091] [FINE  ] 1 - score: 29860 
+[17:55:092] [FINE  ] 2 - score: 29860 
+[17:55:092] [FINE  ] 2 - Try placing WHITE at: 8,12 
+[17:55:094] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:095] [FINE  ] WHITE's scenario: 29820 
+[17:55:095] [FINE  ] 1 - score: 29820 
+[17:55:095] [FINE  ] 2 - score: 29820 
+[17:55:095] [FINE  ] 2 - Try placing WHITE at: 9,10 
+[17:55:097] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:098] [FINE  ] WHITE's scenario: 29820 
+[17:55:098] [FINE  ] 1 - score: 29820 
+[17:55:098] [FINE  ] 2 - score: 29820 
+[17:55:098] [FINE  ] 2 - Try placing WHITE at: 9,11 
+[17:55:100] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:101] [FINE  ] WHITE's scenario: 29820 
+[17:55:101] [FINE  ] 1 - score: 29820 
+[17:55:101] [FINE  ] 2 - score: 29820 
+[17:55:101] [FINE  ] 2 - Try placing WHITE at: 2,5 
+[17:55:104] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:105] [FINE  ] WHITE's scenario: 29890 
+[17:55:105] [FINE  ] 1 - score: 29890 
+[17:55:105] [FINE  ] 2 - score: 29890 
+[17:55:105] [FINE  ] 2 - Try placing WHITE at: 3,10 
+[17:55:108] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:109] [FINE  ] WHITE's scenario: 29890 
+[17:55:109] [FINE  ] 1 - score: 29890 
+[17:55:109] [FINE  ] 2 - score: 29890 
+[17:55:109] [FINE  ] 2 - Try placing WHITE at: 5,9 
+[17:55:111] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:112] [FINE  ] WHITE's scenario: 29890 
+[17:55:112] [FINE  ] 1 - score: 29890 
+[17:55:112] [FINE  ] 2 - score: 29890 
+[17:55:112] [FINE  ] 2 - Try placing WHITE at: 7,9 
+[17:55:115] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:116] [FINE  ] WHITE's scenario: 29890 
+[17:55:116] [FINE  ] 1 - score: 29890 
+[17:55:116] [FINE  ] 2 - score: 29890 
+[17:55:116] [FINE  ] 2 - Try placing WHITE at: 8,6 
+[17:55:119] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:120] [FINE  ] WHITE's scenario: 29890 
+[17:55:120] [FINE  ] 1 - score: 29890 
+[17:55:120] [FINE  ] 2 - score: 29890 
+[17:55:120] [FINE  ] 2 - Try placing WHITE at: 8,7 
+[17:55:123] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:124] [FINE  ] WHITE's scenario: 29890 
+[17:55:124] [FINE  ] 1 - score: 29890 
+[17:55:124] [FINE  ] 2 - score: 29890 
+[17:55:124] [FINE  ] 2 - Try placing WHITE at: 9,12 
+[17:55:126] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[17:55:127] [FINE  ] WHITE's scenario: 29890 
+[17:55:127] [FINE  ] 1 - score: 29890 
+[17:55:127] [FINE  ] 2 - score: 29890 
+[17:55:128] [FINE  ] WHITE best move606 and depth is 2 best score is 0(Branch factor:36; Scenarios Evaluated:70) 
+[18:00:175] [FINE  ] 2 - Try placing WHITE at: 9,4 
+[18:00:179] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[18:00:179] [FINE  ] WHITE's scenario: -250 
+[18:00:180] [FINE  ] 1 - score: -250 
+[18:00:180] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:00:180] [FINE  ] WHITE's scenario: -50 
+[18:00:181] [FINE  ] 1 - score: -50 
+[18:00:181] [FINE  ] 1 - Try placing BLACK at: 6,11 
+[18:00:181] [FINE  ] WHITE's scenario: -50 
+[18:00:182] [FINE  ] 1 - score: -50 
+[18:00:182] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[18:00:182] [FINE  ] WHITE's scenario: -190 
+[18:00:183] [FINE  ] 1 - score: -190 
+[18:00:183] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[18:00:183] [FINE  ] WHITE's scenario: -200 
+[18:00:184] [FINE  ] 1 - score: -200 
+[18:00:184] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[18:00:184] [FINE  ] WHITE's scenario: -300 
+[18:00:184] [FINE  ] 1 - score: -300 
+[18:00:185] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[18:00:185] [FINE  ] WHITE's scenario: -230 
+[18:00:185] [FINE  ] 1 - score: -230 
+[18:00:185] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[18:00:186] [FINE  ] WHITE's scenario: -310 
+[18:00:186] [FINE  ] 1 - score: -310 
+[18:00:186] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[18:00:187] [FINE  ] WHITE's scenario: -290 
+[18:00:187] [FINE  ] 1 - score: -290 
+[18:00:187] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[18:00:188] [FINE  ] WHITE's scenario: -340 
+[18:00:188] [FINE  ] 1 - score: -340 
+[18:00:188] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[18:00:189] [FINE  ] WHITE's scenario: -250 
+[18:00:189] [FINE  ] 1 - score: -250 
+[18:00:189] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[18:00:190] [FINE  ] WHITE's scenario: -370 
+[18:00:190] [FINE  ] 1 - score: -370 
+[18:00:190] [FINE  ] 1 - Try placing BLACK at: 7,4 
+[18:00:191] [FINE  ] WHITE's scenario: -370 
+[18:00:191] [FINE  ] 1 - score: -370 
+[18:00:191] [FINE  ] 1 - Try placing BLACK at: 7,9 
+[18:00:192] [FINE  ] WHITE's scenario: -370 
+[18:00:192] [FINE  ] 1 - score: -370 
+[18:00:192] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[18:00:193] [FINE  ] WHITE's scenario: -370 
+[18:00:193] [FINE  ] 1 - score: -370 
+[18:00:193] [FINE  ] 1 - Try placing BLACK at: 8,9 
+[18:00:194] [FINE  ] WHITE's scenario: -370 
+[18:00:194] [FINE  ] 1 - score: -370 
+[18:00:194] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[18:00:195] [FINE  ] WHITE's scenario: -400 
+[18:00:195] [FINE  ] 1 - score: -400 
+[18:00:195] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[18:00:196] [FINE  ] WHITE's scenario: -400 
+[18:00:196] [FINE  ] 1 - score: -400 
+[18:00:196] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[18:00:196] [FINE  ] WHITE's scenario: -400 
+[18:00:196] [FINE  ] 1 - score: -400 
+[18:00:197] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[18:00:197] [FINE  ] WHITE's scenario: -400 
+[18:00:197] [FINE  ] 1 - score: -400 
+[18:00:197] [FINE  ] 1 - Try placing BLACK at: 7,11 
+[18:00:198] [FINE  ] WHITE's scenario: -400 
+[18:00:198] [FINE  ] 1 - score: -400 
+[18:00:198] [FINE  ] 1 - Try placing BLACK at: 7,12 
+[18:00:199] [FINE  ] WHITE's scenario: -400 
+[18:00:199] [FINE  ] 1 - score: -400 
+[18:00:200] [FINE  ] 1 - Try placing BLACK at: 8,3 
+[18:00:200] [FINE  ] WHITE's scenario: -400 
+[18:00:201] [FINE  ] 1 - score: -400 
+[18:00:201] [FINE  ] 1 - Try placing BLACK at: 8,4 
+[18:00:201] [FINE  ] WHITE's scenario: -400 
+[18:00:202] [FINE  ] 1 - score: -400 
+[18:00:202] [FINE  ] 1 - Try placing BLACK at: 8,10 
+[18:00:202] [FINE  ] WHITE's scenario: -400 
+[18:00:203] [FINE  ] 1 - score: -400 
+[18:00:203] [FINE  ] 1 - Try placing BLACK at: 9,5 
+[18:00:203] [FINE  ] WHITE's scenario: -400 
+[18:00:204] [FINE  ] 1 - score: -400 
+[18:00:204] [FINE  ] 1 - Try placing BLACK at: 9,6 
+[18:00:205] [FINE  ] WHITE's scenario: -400 
+[18:00:205] [FINE  ] 1 - score: -400 
+[18:00:205] [FINE  ] 1 - Try placing BLACK at: 9,10 
+[18:00:206] [FINE  ] WHITE's scenario: -400 
+[18:00:206] [FINE  ] 1 - score: -400 
+[18:00:206] [FINE  ] 1 - Try placing BLACK at: 10,5 
+[18:00:207] [FINE  ] WHITE's scenario: -400 
+[18:00:207] [FINE  ] 1 - score: -400 
+[18:00:207] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[18:00:208] [FINE  ] WHITE's scenario: -430 
+[18:00:208] [FINE  ] 1 - score: -430 
+[18:00:208] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[18:00:209] [FINE  ] WHITE's scenario: -280 
+[18:00:209] [FINE  ] 1 - score: -280 
+[18:00:209] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[18:00:210] [FINE  ] WHITE's scenario: -430 
+[18:00:210] [FINE  ] 1 - score: -430 
+[18:00:210] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[18:00:211] [FINE  ] WHITE's scenario: -430 
+[18:00:211] [FINE  ] 1 - score: -430 
+[18:00:211] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[18:00:212] [FINE  ] WHITE's scenario: -430 
+[18:00:212] [FINE  ] 1 - score: -430 
+[18:00:212] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[18:00:213] [FINE  ] WHITE's scenario: -430 
+[18:00:213] [FINE  ] 1 - score: -430 
+[18:00:213] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[18:00:213] [FINE  ] WHITE's scenario: -430 
+[18:00:213] [FINE  ] 1 - score: -430 
+[18:00:214] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[18:00:214] [FINE  ] WHITE's scenario: -430 
+[18:00:214] [FINE  ] 1 - score: -430 
+[18:00:214] [FINE  ] 1 - Try placing BLACK at: 8,12 
+[18:00:215] [FINE  ] WHITE's scenario: -430 
+[18:00:215] [FINE  ] 1 - score: -430 
+[18:00:215] [FINE  ] 1 - Try placing BLACK at: 9,3 
+[18:00:216] [FINE  ] WHITE's scenario: -430 
+[18:00:216] [FINE  ] 1 - score: -430 
+[18:00:216] [FINE  ] 1 - Try placing BLACK at: 9,11 
+[18:00:217] [FINE  ] WHITE's scenario: -430 
+[18:00:217] [FINE  ] 1 - score: -430 
+[18:00:217] [FINE  ] 1 - Try placing BLACK at: 9,12 
+[18:00:217] [FINE  ] WHITE's scenario: -430 
+[18:00:218] [FINE  ] 1 - score: -430 
+[18:00:218] [FINE  ] 1 - Try placing BLACK at: 10,3 
+[18:00:218] [FINE  ] WHITE's scenario: -430 
+[18:00:218] [FINE  ] 1 - score: -430 
+[18:00:218] [FINE  ] 1 - Try placing BLACK at: 10,4 
+[18:00:219] [FINE  ] WHITE's scenario: -430 
+[18:00:219] [FINE  ] 1 - score: -430 
+[18:00:219] [FINE  ] BLACK best move610 and depth is 1 best score is -50(Branch factor:43; Scenarios Evaluated:43) 
+[18:00:219] [FINE  ] 2 - score: -50 
+[18:02:410] [FINE  ] 2 - Try placing WHITE at: 6,10 
+[18:02:414] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[18:02:414] [FINE  ] WHITE's scenario: -270 
+[18:02:415] [FINE  ] 1 - score: -270 
+[18:02:415] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[18:02:416] [FINE  ] WHITE's scenario: -210 
+[18:02:416] [FINE  ] 1 - score: -210 
+[18:02:416] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[18:02:417] [FINE  ] WHITE's scenario: -220 
+[18:02:417] [FINE  ] 1 - score: -220 
+[18:02:417] [FINE  ] 1 - Try placing BLACK at: 8,9 
+[18:02:418] [FINE  ] WHITE's scenario: -250 
+[18:02:418] [FINE  ] 1 - score: -250 
+[18:02:418] [FINE  ] 1 - Try placing BLACK at: 5,12 
+[18:02:419] [FINE  ] WHITE's scenario: -280 
+[18:02:419] [FINE  ] 1 - score: -280 
+[18:02:419] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[18:02:419] [FINE  ] WHITE's scenario: -320 
+[18:02:420] [FINE  ] 1 - score: -320 
+[18:02:420] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[18:02:422] [FINE  ] WHITE's scenario: -250 
+[18:02:422] [FINE  ] 1 - score: -250 
+[18:02:422] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[18:02:424] [FINE  ] WHITE's scenario: -330 
+[18:02:424] [FINE  ] 1 - score: -330 
+[18:02:424] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[18:02:425] [FINE  ] WHITE's scenario: -310 
+[18:02:425] [FINE  ] 1 - score: -310 
+[18:02:425] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[18:02:426] [FINE  ] WHITE's scenario: -360 
+[18:02:426] [FINE  ] 1 - score: -360 
+[18:02:426] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[18:02:427] [FINE  ] WHITE's scenario: -270 
+[18:02:427] [FINE  ] 1 - score: -270 
+[18:02:427] [FINE  ] 1 - Try placing BLACK at: 7,4 
+[18:02:428] [FINE  ] WHITE's scenario: -390 
+[18:02:428] [FINE  ] 1 - score: -390 
+[18:02:428] [FINE  ] 1 - Try placing BLACK at: 7,9 
+[18:02:429] [FINE  ] WHITE's scenario: -390 
+[18:02:429] [FINE  ] 1 - score: -390 
+[18:02:429] [FINE  ] 1 - Try placing BLACK at: 7,12 
+[18:02:430] [FINE  ] WHITE's scenario: -390 
+[18:02:430] [FINE  ] 1 - score: -390 
+[18:02:430] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[18:02:431] [FINE  ] WHITE's scenario: -390 
+[18:02:431] [FINE  ] 1 - score: -390 
+[18:02:431] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[18:02:432] [FINE  ] WHITE's scenario: -420 
+[18:02:432] [FINE  ] 1 - score: -420 
+[18:02:432] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[18:02:432] [FINE  ] WHITE's scenario: -420 
+[18:02:432] [FINE  ] 1 - score: -420 
+[18:02:433] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[18:02:433] [FINE  ] WHITE's scenario: -420 
+[18:02:433] [FINE  ] 1 - score: -420 
+[18:02:433] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[18:02:434] [FINE  ] WHITE's scenario: -420 
+[18:02:434] [FINE  ] 1 - score: -420 
+[18:02:434] [FINE  ] 1 - Try placing BLACK at: 5,11 
+[18:02:435] [FINE  ] WHITE's scenario: -420 
+[18:02:435] [FINE  ] 1 - score: -420 
+[18:02:435] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[18:02:436] [FINE  ] WHITE's scenario: -420 
+[18:02:436] [FINE  ] 1 - score: -420 
+[18:02:436] [FINE  ] 1 - Try placing BLACK at: 7,11 
+[18:02:437] [FINE  ] WHITE's scenario: -420 
+[18:02:437] [FINE  ] 1 - score: -420 
+[18:02:437] [FINE  ] 1 - Try placing BLACK at: 8,3 
+[18:02:439] [FINE  ] WHITE's scenario: -420 
+[18:02:439] [FINE  ] 1 - score: -420 
+[18:02:439] [FINE  ] 1 - Try placing BLACK at: 8,4 
+[18:02:440] [FINE  ] WHITE's scenario: -420 
+[18:02:441] [FINE  ] 1 - score: -420 
+[18:02:441] [FINE  ] 1 - Try placing BLACK at: 9,5 
+[18:02:441] [FINE  ] WHITE's scenario: -420 
+[18:02:442] [FINE  ] 1 - score: -420 
+[18:02:442] [FINE  ] 1 - Try placing BLACK at: 9,6 
+[18:02:442] [FINE  ] WHITE's scenario: -420 
+[18:02:442] [FINE  ] 1 - score: -420 
+[18:02:442] [FINE  ] 1 - Try placing BLACK at: 10,5 
+[18:02:443] [FINE  ] WHITE's scenario: -420 
+[18:02:443] [FINE  ] 1 - score: -420 
+[18:02:443] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[18:02:444] [FINE  ] WHITE's scenario: -450 
+[18:02:445] [FINE  ] 1 - score: -450 
+[18:02:445] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[18:02:445] [FINE  ] WHITE's scenario: -300 
+[18:02:445] [FINE  ] 1 - score: -300 
+[18:02:445] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[18:02:446] [FINE  ] WHITE's scenario: -450 
+[18:02:446] [FINE  ] 1 - score: -450 
+[18:02:446] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[18:02:447] [FINE  ] WHITE's scenario: -450 
+[18:02:447] [FINE  ] 1 - score: -450 
+[18:02:447] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[18:02:448] [FINE  ] WHITE's scenario: -450 
+[18:02:448] [FINE  ] 1 - score: -450 
+[18:02:448] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[18:02:449] [FINE  ] WHITE's scenario: -450 
+[18:02:449] [FINE  ] 1 - score: -450 
+[18:02:449] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[18:02:449] [FINE  ] WHITE's scenario: -450 
+[18:02:450] [FINE  ] 1 - score: -450 
+[18:02:450] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[18:02:450] [FINE  ] WHITE's scenario: -450 
+[18:02:450] [FINE  ] 1 - score: -450 
+[18:02:451] [FINE  ] 1 - Try placing BLACK at: 6,12 
+[18:02:451] [FINE  ] WHITE's scenario: -450 
+[18:02:451] [FINE  ] 1 - score: -450 
+[18:02:452] [FINE  ] 1 - Try placing BLACK at: 8,10 
+[18:02:452] [FINE  ] WHITE's scenario: -450 
+[18:02:452] [FINE  ] 1 - score: -450 
+[18:02:453] [FINE  ] 1 - Try placing BLACK at: 8,12 
+[18:02:453] [FINE  ] WHITE's scenario: -450 
+[18:02:454] [FINE  ] 1 - score: -450 
+[18:02:454] [FINE  ] 1 - Try placing BLACK at: 9,3 
+[18:02:455] [FINE  ] WHITE's scenario: -450 
+[18:02:455] [FINE  ] 1 - score: -450 
+[18:02:455] [FINE  ] 1 - Try placing BLACK at: 9,10 
+[18:02:456] [FINE  ] WHITE's scenario: -450 
+[18:02:456] [FINE  ] 1 - score: -450 
+[18:02:456] [FINE  ] 1 - Try placing BLACK at: 9,11 
+[18:02:457] [FINE  ] WHITE's scenario: -450 
+[18:02:457] [FINE  ] 1 - score: -450 
+[18:02:458] [FINE  ] 1 - Try placing BLACK at: 9,12 
+[18:02:458] [FINE  ] WHITE's scenario: -450 
+[18:02:458] [FINE  ] 1 - score: -450 
+[18:02:458] [FINE  ] 1 - Try placing BLACK at: 10,3 
+[18:02:459] [FINE  ] WHITE's scenario: -450 
+[18:02:459] [FINE  ] 1 - score: -450 
+[18:02:459] [FINE  ] 1 - Try placing BLACK at: 10,4 
+[18:02:460] [FINE  ] WHITE's scenario: -450 
+[18:02:460] [FINE  ] 1 - score: -450 
+[18:02:460] [FINE  ] BLACK best move408 and depth is 1 best score is -210(Branch factor:44; Scenarios Evaluated:44) 
+[18:02:460] [FINE  ] 2 - score: -210 
+[18:02:460] [FINE  ] 2 - Try placing WHITE at: 4,6 
+[18:02:463] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:463] [FINE  ] WHITE's scenario: 80660 
+[18:02:464] [FINE  ] 1 - score: 80660 
+[18:02:464] [FINE  ] 2 - score: 80660 
+[18:02:464] [FINE  ] 2 - Try placing WHITE at: 5,4 
+[18:02:466] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:467] [FINE  ] WHITE's scenario: 80660 
+[18:02:467] [FINE  ] 1 - score: 80660 
+[18:02:468] [FINE  ] 2 - score: 80660 
+[18:02:468] [FINE  ] 2 - Try placing WHITE at: 2,6 
+[18:02:471] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:474] [FINE  ] WHITE's scenario: 80730 
+[18:02:475] [FINE  ] 1 - score: 80730 
+[18:02:475] [FINE  ] 2 - score: 80730 
+[18:02:475] [FINE  ] 2 - Try placing WHITE at: 4,8 
+[18:02:477] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:478] [FINE  ] WHITE's scenario: 88620 
+[18:02:478] [FINE  ] 1 - score: 88620 
+[18:02:478] [FINE  ] 2 - score: 88620 
+[18:02:478] [FINE  ] 2 - Try placing WHITE at: 4,4 
+[18:02:481] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:483] [FINE  ] WHITE's scenario: 87720 
+[18:02:483] [FINE  ] 1 - score: 87720 
+[18:02:483] [FINE  ] 2 - score: 87720 
+[18:02:483] [FINE  ] 2 - Try placing WHITE at: 7,5 
+[18:02:486] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:487] [FINE  ] WHITE's scenario: 88650 
+[18:02:487] [FINE  ] 1 - score: 88650 
+[18:02:487] [FINE  ] 2 - score: 88650 
+[18:02:487] [FINE  ] 2 - Try placing WHITE at: 7,7 
+[18:02:489] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:490] [FINE  ] WHITE's scenario: 87720 
+[18:02:491] [FINE  ] 1 - score: 87720 
+[18:02:491] [FINE  ] 2 - score: 87720 
+[18:02:491] [FINE  ] 2 - Try placing WHITE at: 3,9 
+[18:02:494] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:495] [FINE  ] WHITE's scenario: 88580 
+[18:02:495] [FINE  ] 1 - score: 88580 
+[18:02:495] [FINE  ] 2 - score: 88580 
+[18:02:495] [FINE  ] 2 - Try placing WHITE at: 8,4 
+[18:02:498] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:500] [FINE  ] WHITE's scenario: 88580 
+[18:02:500] [FINE  ] 1 - score: 88580 
+[18:02:500] [FINE  ] 2 - score: 88580 
+[18:02:500] [FINE  ] 2 - Try placing WHITE at: 8,9 
+[18:02:503] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:504] [FINE  ] WHITE's scenario: 89480 
+[18:02:505] [FINE  ] 1 - score: 89480 
+[18:02:505] [FINE  ] 2 - score: 89480 
+[18:02:505] [FINE  ] 2 - Try placing WHITE at: 5,12 
+[18:02:508] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:509] [FINE  ] WHITE's scenario: 89550 
+[18:02:510] [FINE  ] 1 - score: 89550 
+[18:02:510] [FINE  ] 2 - score: 89550 
+[18:02:510] [FINE  ] 2 - Try placing WHITE at: 7,8 
+[18:02:512] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:513] [FINE  ] WHITE's scenario: 89550 
+[18:02:513] [FINE  ] 1 - score: 89550 
+[18:02:513] [FINE  ] 2 - score: 89550 
+[18:02:513] [FINE  ] 2 - Try placing WHITE at: 2,7 
+[18:02:516] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:518] [FINE  ] WHITE's scenario: 89440 
+[18:02:518] [FINE  ] 1 - score: 89440 
+[18:02:518] [FINE  ] 2 - score: 89440 
+[18:02:519] [FINE  ] 2 - Try placing WHITE at: 3,5 
+[18:02:521] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:522] [FINE  ] WHITE's scenario: 89440 
+[18:02:523] [FINE  ] 1 - score: 89440 
+[18:02:523] [FINE  ] 2 - score: 89440 
+[18:02:523] [FINE  ] 2 - Try placing WHITE at: 3,7 
+[18:02:525] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:526] [FINE  ] WHITE's scenario: 89440 
+[18:02:526] [FINE  ] 1 - score: 89440 
+[18:02:526] [FINE  ] 2 - score: 89440 
+[18:02:526] [FINE  ] 2 - Try placing WHITE at: 3,8 
+[18:02:529] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:530] [FINE  ] WHITE's scenario: 89440 
+[18:02:530] [FINE  ] 1 - score: 89440 
+[18:02:530] [FINE  ] 2 - score: 89440 
+[18:02:530] [FINE  ] 2 - Try placing WHITE at: 4,5 
+[18:02:533] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:534] [FINE  ] WHITE's scenario: 89440 
+[18:02:534] [FINE  ] 1 - score: 89440 
+[18:02:534] [FINE  ] 2 - score: 89440 
+[18:02:534] [FINE  ] 2 - Try placing WHITE at: 4,10 
+[18:02:537] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:538] [FINE  ] WHITE's scenario: 89510 
+[18:02:538] [FINE  ] 1 - score: 89510 
+[18:02:538] [FINE  ] 2 - score: 89510 
+[18:02:538] [FINE  ] 2 - Try placing WHITE at: 6,4 
+[18:02:542] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:544] [FINE  ] WHITE's scenario: 89510 
+[18:02:544] [FINE  ] 1 - score: 89510 
+[18:02:544] [FINE  ] 2 - score: 89510 
+[18:02:544] [FINE  ] 2 - Try placing WHITE at: 6,5 
+[18:02:547] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:548] [FINE  ] WHITE's scenario: 89510 
+[18:02:548] [FINE  ] 1 - score: 89510 
+[18:02:548] [FINE  ] 2 - score: 89510 
+[18:02:548] [FINE  ] 2 - Try placing WHITE at: 7,4 
+[18:02:551] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:552] [FINE  ] WHITE's scenario: 89510 
+[18:02:552] [FINE  ] 1 - score: 89510 
+[18:02:552] [FINE  ] 2 - score: 89510 
+[18:02:552] [FINE  ] 2 - Try placing WHITE at: 7,12 
+[18:02:555] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:557] [FINE  ] WHITE's scenario: 89510 
+[18:02:557] [FINE  ] 1 - score: 89510 
+[18:02:557] [FINE  ] 2 - score: 89510 
+[18:02:557] [FINE  ] 2 - Try placing WHITE at: 8,3 
+[18:02:559] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:560] [FINE  ] WHITE's scenario: 89510 
+[18:02:560] [FINE  ] 1 - score: 89510 
+[18:02:560] [FINE  ] 2 - score: 89510 
+[18:02:560] [FINE  ] 2 - Try placing WHITE at: 8,10 
+[18:02:563] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:564] [FINE  ] WHITE's scenario: 89480 
+[18:02:564] [FINE  ] 1 - score: 89480 
+[18:02:564] [FINE  ] 2 - score: 89480 
+[18:02:564] [FINE  ] 2 - Try placing WHITE at: 8,12 
+[18:02:567] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:568] [FINE  ] WHITE's scenario: 89510 
+[18:02:568] [FINE  ] 1 - score: 89510 
+[18:02:568] [FINE  ] 2 - score: 89510 
+[18:02:568] [FINE  ] 2 - Try placing WHITE at: 9,3 
+[18:02:571] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:571] [FINE  ] WHITE's scenario: 89510 
+[18:02:572] [FINE  ] 1 - score: 89510 
+[18:02:572] [FINE  ] 2 - score: 89510 
+[18:02:572] [FINE  ] 2 - Try placing WHITE at: 9,5 
+[18:02:575] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:576] [FINE  ] WHITE's scenario: 89510 
+[18:02:576] [FINE  ] 1 - score: 89510 
+[18:02:576] [FINE  ] 2 - score: 89510 
+[18:02:576] [FINE  ] 2 - Try placing WHITE at: 9,6 
+[18:02:579] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:579] [FINE  ] WHITE's scenario: 89510 
+[18:02:580] [FINE  ] 1 - score: 89510 
+[18:02:580] [FINE  ] 2 - score: 89510 
+[18:02:580] [FINE  ] 2 - Try placing WHITE at: 9,10 
+[18:02:582] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:583] [FINE  ] WHITE's scenario: 89510 
+[18:02:583] [FINE  ] 1 - score: 89510 
+[18:02:583] [FINE  ] 2 - score: 89510 
+[18:02:583] [FINE  ] 2 - Try placing WHITE at: 9,11 
+[18:02:587] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:588] [FINE  ] WHITE's scenario: 89510 
+[18:02:588] [FINE  ] 1 - score: 89510 
+[18:02:588] [FINE  ] 2 - score: 89510 
+[18:02:588] [FINE  ] 2 - Try placing WHITE at: 10,4 
+[18:02:593] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:593] [FINE  ] WHITE's scenario: 89510 
+[18:02:594] [FINE  ] 1 - score: 89510 
+[18:02:594] [FINE  ] 2 - score: 89510 
+[18:02:594] [FINE  ] 2 - Try placing WHITE at: 10,5 
+[18:02:596] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:598] [FINE  ] WHITE's scenario: 89510 
+[18:02:598] [FINE  ] 1 - score: 89510 
+[18:02:598] [FINE  ] 2 - score: 89510 
+[18:02:598] [FINE  ] 2 - Try placing WHITE at: 2,5 
+[18:02:601] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:602] [FINE  ] WHITE's scenario: 89580 
+[18:02:602] [FINE  ] 1 - score: 89580 
+[18:02:602] [FINE  ] 2 - score: 89580 
+[18:02:602] [FINE  ] 2 - Try placing WHITE at: 3,10 
+[18:02:605] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:606] [FINE  ] WHITE's scenario: 89580 
+[18:02:606] [FINE  ] 1 - score: 89580 
+[18:02:606] [FINE  ] 2 - score: 89580 
+[18:02:606] [FINE  ] 2 - Try placing WHITE at: 5,9 
+[18:02:608] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:609] [FINE  ] WHITE's scenario: 89580 
+[18:02:610] [FINE  ] 1 - score: 89580 
+[18:02:610] [FINE  ] 2 - score: 89580 
+[18:02:610] [FINE  ] 2 - Try placing WHITE at: 5,10 
+[18:02:612] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:613] [FINE  ] WHITE's scenario: 89550 
+[18:02:613] [FINE  ] 1 - score: 89550 
+[18:02:613] [FINE  ] 2 - score: 89550 
+[18:02:613] [FINE  ] 2 - Try placing WHITE at: 5,11 
+[18:02:615] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:616] [FINE  ] WHITE's scenario: 89580 
+[18:02:616] [FINE  ] 1 - score: 89580 
+[18:02:616] [FINE  ] 2 - score: 89580 
+[18:02:616] [FINE  ] 2 - Try placing WHITE at: 6,12 
+[18:02:619] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:620] [FINE  ] WHITE's scenario: 89580 
+[18:02:620] [FINE  ] 1 - score: 89580 
+[18:02:620] [FINE  ] 2 - score: 89580 
+[18:02:620] [FINE  ] 2 - Try placing WHITE at: 7,9 
+[18:02:623] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:624] [FINE  ] WHITE's scenario: 89580 
+[18:02:624] [FINE  ] 1 - score: 89580 
+[18:02:624] [FINE  ] 2 - score: 89580 
+[18:02:624] [FINE  ] 2 - Try placing WHITE at: 7,11 
+[18:02:626] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:627] [FINE  ] WHITE's scenario: 89580 
+[18:02:627] [FINE  ] 1 - score: 89580 
+[18:02:627] [FINE  ] 2 - score: 89580 
+[18:02:627] [FINE  ] 2 - Try placing WHITE at: 8,6 
+[18:02:630] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:631] [FINE  ] WHITE's scenario: 89580 
+[18:02:631] [FINE  ] 1 - score: 89580 
+[18:02:631] [FINE  ] 2 - score: 89580 
+[18:02:631] [FINE  ] 2 - Try placing WHITE at: 8,7 
+[18:02:633] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:634] [FINE  ] WHITE's scenario: 89580 
+[18:02:634] [FINE  ] 1 - score: 89580 
+[18:02:634] [FINE  ] 2 - score: 89580 
+[18:02:634] [FINE  ] 2 - Try placing WHITE at: 9,12 
+[18:02:636] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:637] [FINE  ] WHITE's scenario: 89580 
+[18:02:637] [FINE  ] 1 - score: 89580 
+[18:02:637] [FINE  ] 2 - score: 89580 
+[18:02:637] [FINE  ] 2 - Try placing WHITE at: 10,3 
+[18:02:640] [FINE  ] 1 - Try placing BLACK at: 6,10 
+[18:02:641] [FINE  ] WHITE's scenario: 89580 
+[18:02:641] [FINE  ] 1 - score: 89580 
+[18:02:641] [FINE  ] 2 - score: 89580 
+[18:02:641] [FINE  ] WHITE best move610 and depth is 2 best score is -210(Branch factor:45; Scenarios Evaluated:88) 
+[18:03:877] [FINE  ] 2 - Try placing WHITE at: 5,12 
+[18:03:880] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[18:03:881] [FINE  ] WHITE's scenario: -220 
+[18:03:882] [FINE  ] 1 - score: -220 
+[18:03:882] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:03:883] [FINE  ] WHITE's scenario: -20 
+[18:03:883] [FINE  ] 1 - score: -20 
+[18:03:883] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[18:03:884] [FINE  ] WHITE's scenario: -120 
+[18:03:884] [FINE  ] 1 - score: -120 
+[18:03:884] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[18:03:885] [FINE  ] WHITE's scenario: -160 
+[18:03:885] [FINE  ] 1 - score: -160 
+[18:03:885] [FINE  ] 1 - Try placing BLACK at: 7,9 
+[18:03:886] [FINE  ] WHITE's scenario: -200 
+[18:03:886] [FINE  ] 1 - score: -200 
+[18:03:886] [FINE  ] 1 - Try placing BLACK at: 8,8 
+[18:03:886] [FINE  ] WHITE's scenario: -250 
+[18:03:887] [FINE  ] 1 - score: -250 
+[18:03:887] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[18:03:887] [FINE  ] WHITE's scenario: -270 
+[18:03:887] [FINE  ] 1 - score: -270 
+[18:03:888] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[18:03:888] [FINE  ] WHITE's scenario: -200 
+[18:03:889] [FINE  ] 1 - score: -200 
+[18:03:889] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[18:03:890] [FINE  ] WHITE's scenario: -280 
+[18:03:890] [FINE  ] 1 - score: -280 
+[18:03:890] [FINE  ] 1 - Try placing BLACK at: 9,9 
+[18:03:891] [FINE  ] WHITE's scenario: -280 
+[18:03:891] [FINE  ] 1 - score: -280 
+[18:03:891] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[18:03:892] [FINE  ] WHITE's scenario: -260 
+[18:03:892] [FINE  ] 1 - score: -260 
+[18:03:892] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[18:03:892] [FINE  ] WHITE's scenario: -310 
+[18:03:893] [FINE  ] 1 - score: -310 
+[18:03:893] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[18:03:893] [FINE  ] WHITE's scenario: -220 
+[18:03:893] [FINE  ] 1 - score: -220 
+[18:03:894] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[18:03:894] [FINE  ] WHITE's scenario: -350 
+[18:03:894] [FINE  ] 1 - score: -350 
+[18:03:894] [FINE  ] 1 - Try placing BLACK at: 4,11 
+[18:03:895] [FINE  ] WHITE's scenario: -340 
+[18:03:895] [FINE  ] 1 - score: -340 
+[18:03:895] [FINE  ] 1 - Try placing BLACK at: 7,4 
+[18:03:896] [FINE  ] WHITE's scenario: -340 
+[18:03:896] [FINE  ] 1 - score: -340 
+[18:03:896] [FINE  ] 1 - Try placing BLACK at: 7,12 
+[18:03:897] [FINE  ] WHITE's scenario: -340 
+[18:03:898] [FINE  ] 1 - score: -340 
+[18:03:898] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[18:03:899] [FINE  ] WHITE's scenario: -340 
+[18:03:899] [FINE  ] 1 - score: -340 
+[18:03:899] [FINE  ] 1 - Try placing BLACK at: 9,10 
+[18:03:901] [FINE  ] WHITE's scenario: -350 
+[18:03:901] [FINE  ] 1 - score: -350 
+[18:03:901] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[18:03:902] [FINE  ] WHITE's scenario: -370 
+[18:03:902] [FINE  ] 1 - score: -370 
+[18:03:902] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[18:03:903] [FINE  ] WHITE's scenario: -370 
+[18:03:903] [FINE  ] 1 - score: -370 
+[18:03:903] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[18:03:904] [FINE  ] WHITE's scenario: -370 
+[18:03:904] [FINE  ] 1 - score: -370 
+[18:03:904] [FINE  ] 1 - Try placing BLACK at: 5,11 
+[18:03:905] [FINE  ] WHITE's scenario: -370 
+[18:03:905] [FINE  ] 1 - score: -370 
+[18:03:905] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[18:03:907] [FINE  ] WHITE's scenario: -370 
+[18:03:907] [FINE  ] 1 - score: -370 
+[18:03:907] [FINE  ] 1 - Try placing BLACK at: 7,11 
+[18:03:908] [FINE  ] WHITE's scenario: -370 
+[18:03:908] [FINE  ] 1 - score: -370 
+[18:03:908] [FINE  ] 1 - Try placing BLACK at: 8,3 
+[18:03:909] [FINE  ] WHITE's scenario: -370 
+[18:03:909] [FINE  ] 1 - score: -370 
+[18:03:909] [FINE  ] 1 - Try placing BLACK at: 8,4 
+[18:03:910] [FINE  ] WHITE's scenario: -370 
+[18:03:910] [FINE  ] 1 - score: -370 
+[18:03:910] [FINE  ] 1 - Try placing BLACK at: 9,5 
+[18:03:911] [FINE  ] WHITE's scenario: -370 
+[18:03:911] [FINE  ] 1 - score: -370 
+[18:03:911] [FINE  ] 1 - Try placing BLACK at: 9,6 
+[18:03:911] [FINE  ] WHITE's scenario: -370 
+[18:03:912] [FINE  ] 1 - score: -370 
+[18:03:912] [FINE  ] 1 - Try placing BLACK at: 10,5 
+[18:03:913] [FINE  ] WHITE's scenario: -370 
+[18:03:913] [FINE  ] 1 - score: -370 
+[18:03:913] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[18:03:914] [FINE  ] WHITE's scenario: -400 
+[18:03:914] [FINE  ] 1 - score: -400 
+[18:03:914] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[18:03:914] [FINE  ] WHITE's scenario: -250 
+[18:03:915] [FINE  ] 1 - score: -250 
+[18:03:915] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[18:03:915] [FINE  ] WHITE's scenario: -400 
+[18:03:915] [FINE  ] 1 - score: -400 
+[18:03:915] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[18:03:916] [FINE  ] WHITE's scenario: -400 
+[18:03:916] [FINE  ] 1 - score: -400 
+[18:03:916] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[18:03:917] [FINE  ] WHITE's scenario: -400 
+[18:03:917] [FINE  ] 1 - score: -400 
+[18:03:917] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[18:03:918] [FINE  ] WHITE's scenario: -400 
+[18:03:918] [FINE  ] 1 - score: -400 
+[18:03:918] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[18:03:918] [FINE  ] WHITE's scenario: -400 
+[18:03:918] [FINE  ] 1 - score: -400 
+[18:03:919] [FINE  ] 1 - Try placing BLACK at: 4,12 
+[18:03:919] [FINE  ] WHITE's scenario: -400 
+[18:03:919] [FINE  ] 1 - score: -400 
+[18:03:919] [FINE  ] 1 - Try placing BLACK at: 4,13 
+[18:03:920] [FINE  ] WHITE's scenario: -400 
+[18:03:920] [FINE  ] 1 - score: -400 
+[18:03:920] [FINE  ] 1 - Try placing BLACK at: 5,13 
+[18:03:921] [FINE  ] WHITE's scenario: -400 
+[18:03:921] [FINE  ] 1 - score: -400 
+[18:03:921] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[18:03:922] [FINE  ] WHITE's scenario: -400 
+[18:03:922] [FINE  ] 1 - score: -400 
+[18:03:922] [FINE  ] 1 - Try placing BLACK at: 6,12 
+[18:03:923] [FINE  ] WHITE's scenario: -400 
+[18:03:924] [FINE  ] 1 - score: -400 
+[18:03:924] [FINE  ] 1 - Try placing BLACK at: 6,13 
+[18:03:925] [FINE  ] WHITE's scenario: -400 
+[18:03:925] [FINE  ] 1 - score: -400 
+[18:03:925] [FINE  ] 1 - Try placing BLACK at: 8,10 
+[18:03:926] [FINE  ] WHITE's scenario: -400 
+[18:03:926] [FINE  ] 1 - score: -400 
+[18:03:927] [FINE  ] 1 - Try placing BLACK at: 8,12 
+[18:03:928] [FINE  ] WHITE's scenario: -400 
+[18:03:928] [FINE  ] 1 - score: -400 
+[18:03:928] [FINE  ] 1 - Try placing BLACK at: 9,3 
+[18:03:929] [FINE  ] WHITE's scenario: -400 
+[18:03:929] [FINE  ] 1 - score: -400 
+[18:03:929] [FINE  ] 1 - Try placing BLACK at: 9,11 
+[18:03:930] [FINE  ] WHITE's scenario: -400 
+[18:03:930] [FINE  ] 1 - score: -400 
+[18:03:930] [FINE  ] 1 - Try placing BLACK at: 9,12 
+[18:03:932] [FINE  ] WHITE's scenario: -400 
+[18:03:932] [FINE  ] 1 - score: -400 
+[18:03:932] [FINE  ] 1 - Try placing BLACK at: 10,3 
+[18:03:933] [FINE  ] WHITE's scenario: -400 
+[18:03:933] [FINE  ] 1 - score: -400 
+[18:03:933] [FINE  ] 1 - Try placing BLACK at: 10,4 
+[18:03:934] [FINE  ] WHITE's scenario: -400 
+[18:03:934] [FINE  ] 1 - score: -400 
+[18:03:934] [FINE  ] BLACK best move908 and depth is 1 best score is -20(Branch factor:50; Scenarios Evaluated:50) 
+[18:03:934] [FINE  ] 2 - score: -20 
+[18:03:934] [FINE  ] 2 - Try placing WHITE at: 9,8 
+[18:03:937] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[18:03:938] [FINE  ] WHITE's scenario: -220 
+[18:03:939] [FINE  ] 1 - score: -220 
+[18:03:939] [FINE  ] 1 - Try placing BLACK at: 5,12 
+[18:03:940] [FINE  ] WHITE's scenario: -50 
+[18:03:940] [FINE  ] 1 - score: -50 
+[18:03:940] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[18:03:941] [FINE  ] WHITE's scenario: -120 
+[18:03:941] [FINE  ] 1 - score: -120 
+[18:03:941] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[18:03:942] [FINE  ] WHITE's scenario: -160 
+[18:03:943] [FINE  ] 1 - score: -160 
+[18:03:943] [FINE  ] 1 - Try placing BLACK at: 7,9 
+[18:03:944] [FINE  ] WHITE's scenario: -200 
+[18:03:944] [FINE  ] 1 - score: -200 
+[18:03:944] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[18:03:945] [FINE  ] WHITE's scenario: -270 
+[18:03:945] [FINE  ] 1 - score: -270 
+[18:03:945] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[18:03:947] [FINE  ] WHITE's scenario: -200 
+[18:03:948] [FINE  ] 1 - score: -200 
+[18:03:948] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[18:03:949] [FINE  ] WHITE's scenario: -280 
+[18:03:949] [FINE  ] 1 - score: -280 
+[18:03:949] [FINE  ] 1 - Try placing BLACK at: 9,9 
+[18:03:950] [FINE  ] WHITE's scenario: -280 
+[18:03:950] [FINE  ] 1 - score: -280 
+[18:03:950] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[18:03:951] [FINE  ] WHITE's scenario: -260 
+[18:03:951] [FINE  ] 1 - score: -260 
+[18:03:951] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[18:03:951] [FINE  ] WHITE's scenario: -220 
+[18:03:951] [FINE  ] 1 - score: -220 
+[18:03:952] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[18:03:952] [FINE  ] WHITE's scenario: -350 
+[18:03:952] [FINE  ] 1 - score: -350 
+[18:03:952] [FINE  ] 1 - Try placing BLACK at: 8,8 
+[18:03:953] [FINE  ] WHITE's scenario: -350 
+[18:03:953] [FINE  ] 1 - score: -350 
+[18:03:953] [FINE  ] 1 - Try placing BLACK at: 7,4 
+[18:03:954] [FINE  ] WHITE's scenario: -340 
+[18:03:954] [FINE  ] 1 - score: -340 
+[18:03:954] [FINE  ] 1 - Try placing BLACK at: 7,12 
+[18:03:955] [FINE  ] WHITE's scenario: -340 
+[18:03:955] [FINE  ] 1 - score: -340 
+[18:03:955] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[18:03:955] [FINE  ] WHITE's scenario: -340 
+[18:03:956] [FINE  ] 1 - score: -340 
+[18:03:956] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[18:03:956] [FINE  ] WHITE's scenario: -340 
+[18:03:957] [FINE  ] 1 - score: -340 
+[18:03:957] [FINE  ] 1 - Try placing BLACK at: 9,10 
+[18:03:957] [FINE  ] WHITE's scenario: -350 
+[18:03:958] [FINE  ] 1 - score: -350 
+[18:03:958] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[18:03:958] [FINE  ] WHITE's scenario: -370 
+[18:03:959] [FINE  ] 1 - score: -370 
+[18:03:959] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[18:03:960] [FINE  ] WHITE's scenario: -370 
+[18:03:960] [FINE  ] 1 - score: -370 
+[18:03:960] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[18:03:963] [FINE  ] WHITE's scenario: -370 
+[18:03:963] [FINE  ] 1 - score: -370 
+[18:03:963] [FINE  ] 1 - Try placing BLACK at: 5,11 
+[18:03:964] [FINE  ] WHITE's scenario: -370 
+[18:03:964] [FINE  ] 1 - score: -370 
+[18:03:964] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[18:03:965] [FINE  ] WHITE's scenario: -370 
+[18:03:965] [FINE  ] 1 - score: -370 
+[18:03:965] [FINE  ] 1 - Try placing BLACK at: 7,11 
+[18:03:966] [FINE  ] WHITE's scenario: -370 
+[18:03:966] [FINE  ] 1 - score: -370 
+[18:03:966] [FINE  ] 1 - Try placing BLACK at: 8,3 
+[18:03:967] [FINE  ] WHITE's scenario: -370 
+[18:03:967] [FINE  ] 1 - score: -370 
+[18:03:967] [FINE  ] 1 - Try placing BLACK at: 8,4 
+[18:03:968] [FINE  ] WHITE's scenario: -370 
+[18:03:968] [FINE  ] 1 - score: -370 
+[18:03:968] [FINE  ] 1 - Try placing BLACK at: 9,5 
+[18:03:969] [FINE  ] WHITE's scenario: -370 
+[18:03:969] [FINE  ] 1 - score: -370 
+[18:03:969] [FINE  ] 1 - Try placing BLACK at: 9,6 
+[18:03:970] [FINE  ] WHITE's scenario: -370 
+[18:03:970] [FINE  ] 1 - score: -370 
+[18:03:970] [FINE  ] 1 - Try placing BLACK at: 10,5 
+[18:03:974] [FINE  ] WHITE's scenario: -370 
+[18:03:974] [FINE  ] 1 - score: -370 
+[18:03:974] [FINE  ] 1 - Try placing BLACK at: 10,7 
+[18:03:975] [FINE  ] WHITE's scenario: -370 
+[18:03:975] [FINE  ] 1 - score: -370 
+[18:03:975] [FINE  ] 1 - Try placing BLACK at: 10,9 
+[18:03:975] [FINE  ] WHITE's scenario: -400 
+[18:03:976] [FINE  ] 1 - score: -400 
+[18:03:976] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[18:03:976] [FINE  ] WHITE's scenario: -400 
+[18:03:976] [FINE  ] 1 - score: -400 
+[18:03:977] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[18:03:977] [FINE  ] WHITE's scenario: -250 
+[18:03:977] [FINE  ] 1 - score: -250 
+[18:03:977] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[18:03:978] [FINE  ] WHITE's scenario: -400 
+[18:03:978] [FINE  ] 1 - score: -400 
+[18:03:978] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[18:03:979] [FINE  ] WHITE's scenario: -400 
+[18:03:979] [FINE  ] 1 - score: -400 
+[18:03:979] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[18:03:980] [FINE  ] WHITE's scenario: -400 
+[18:03:980] [FINE  ] 1 - score: -400 
+[18:03:980] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[18:03:981] [FINE  ] WHITE's scenario: -400 
+[18:03:981] [FINE  ] 1 - score: -400 
+[18:03:981] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[18:03:981] [FINE  ] WHITE's scenario: -400 
+[18:03:982] [FINE  ] 1 - score: -400 
+[18:03:982] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[18:03:982] [FINE  ] WHITE's scenario: -400 
+[18:03:982] [FINE  ] 1 - score: -400 
+[18:03:983] [FINE  ] 1 - Try placing BLACK at: 6,12 
+[18:03:983] [FINE  ] WHITE's scenario: -400 
+[18:03:983] [FINE  ] 1 - score: -400 
+[18:03:983] [FINE  ] 1 - Try placing BLACK at: 8,10 
+[18:03:984] [FINE  ] WHITE's scenario: -400 
+[18:03:984] [FINE  ] 1 - score: -400 
+[18:03:984] [FINE  ] 1 - Try placing BLACK at: 8,12 
+[18:03:985] [FINE  ] WHITE's scenario: -400 
+[18:03:985] [FINE  ] 1 - score: -400 
+[18:03:985] [FINE  ] 1 - Try placing BLACK at: 9,3 
+[18:03:986] [FINE  ] WHITE's scenario: -400 
+[18:03:986] [FINE  ] 1 - score: -400 
+[18:03:987] [FINE  ] 1 - Try placing BLACK at: 9,7 
+[18:03:987] [FINE  ] WHITE's scenario: -400 
+[18:03:987] [FINE  ] 1 - score: -400 
+[18:03:987] [FINE  ] 1 - Try placing BLACK at: 9,11 
+[18:03:988] [FINE  ] WHITE's scenario: -400 
+[18:03:988] [FINE  ] 1 - score: -400 
+[18:03:988] [FINE  ] 1 - Try placing BLACK at: 9,12 
+[18:03:989] [FINE  ] WHITE's scenario: -400 
+[18:03:989] [FINE  ] 1 - score: -400 
+[18:03:989] [FINE  ] 1 - Try placing BLACK at: 10,3 
+[18:03:990] [FINE  ] WHITE's scenario: -400 
+[18:03:990] [FINE  ] 1 - score: -400 
+[18:03:990] [FINE  ] 1 - Try placing BLACK at: 10,4 
+[18:03:991] [FINE  ] WHITE's scenario: -400 
+[18:03:991] [FINE  ] 1 - score: -400 
+[18:03:991] [FINE  ] 1 - Try placing BLACK at: 10,8 
+[18:03:992] [FINE  ] WHITE's scenario: -400 
+[18:03:992] [FINE  ] 1 - score: -400 
+[18:03:992] [FINE  ] BLACK best move512 and depth is 1 best score is -50(Branch factor:49; Scenarios Evaluated:49) 
+[18:03:992] [FINE  ] 2 - score: -50 
+[18:03:992] [FINE  ] 2 - Try placing WHITE at: 4,6 
+[18:03:995] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:03:996] [FINE  ] WHITE's scenario: 20660 
+[18:03:996] [FINE  ] 1 - score: 20660 
+[18:03:996] [FINE  ] 2 - score: 20660 
+[18:03:996] [FINE  ] 2 - Try placing WHITE at: 5,4 
+[18:03:999] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:000] [FINE  ] WHITE's scenario: 20660 
+[18:04:000] [FINE  ] 1 - score: 20660 
+[18:04:000] [FINE  ] 2 - score: 20660 
+[18:04:000] [FINE  ] 2 - Try placing WHITE at: 2,6 
+[18:04:004] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:005] [FINE  ] WHITE's scenario: 20730 
+[18:04:006] [FINE  ] 1 - score: 20730 
+[18:04:006] [FINE  ] 2 - score: 20730 
+[18:04:006] [FINE  ] 2 - Try placing WHITE at: 4,8 
+[18:04:010] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:010] [FINE  ] WHITE's scenario: 28550 
+[18:04:011] [FINE  ] 1 - score: 28550 
+[18:04:011] [FINE  ] 2 - score: 28550 
+[18:04:011] [FINE  ] 2 - Try placing WHITE at: 4,4 
+[18:04:014] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:015] [FINE  ] WHITE's scenario: 27720 
+[18:04:015] [FINE  ] 1 - score: 27720 
+[18:04:015] [FINE  ] 2 - score: 27720 
+[18:04:015] [FINE  ] 2 - Try placing WHITE at: 7,5 
+[18:04:018] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:019] [FINE  ] WHITE's scenario: 28650 
+[18:04:019] [FINE  ] 1 - score: 28650 
+[18:04:019] [FINE  ] 2 - score: 28650 
+[18:04:019] [FINE  ] 2 - Try placing WHITE at: 7,7 
+[18:04:022] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:023] [FINE  ] WHITE's scenario: 27720 
+[18:04:023] [FINE  ] 1 - score: 27720 
+[18:04:023] [FINE  ] 2 - score: 27720 
+[18:04:023] [FINE  ] 2 - Try placing WHITE at: 3,9 
+[18:04:026] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:027] [FINE  ] WHITE's scenario: 28550 
+[18:04:027] [FINE  ] 1 - score: 28550 
+[18:04:027] [FINE  ] 2 - score: 28550 
+[18:04:027] [FINE  ] 2 - Try placing WHITE at: 8,4 
+[18:04:030] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:031] [FINE  ] WHITE's scenario: 28580 
+[18:04:031] [FINE  ] 1 - score: 28580 
+[18:04:031] [FINE  ] 2 - score: 28580 
+[18:04:031] [FINE  ] 2 - Try placing WHITE at: 8,8 
+[18:04:034] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:035] [FINE  ] WHITE's scenario: 27650 
+[18:04:035] [FINE  ] 1 - score: 27650 
+[18:04:035] [FINE  ] 2 - score: 27650 
+[18:04:035] [FINE  ] 2 - Try placing WHITE at: 7,9 
+[18:04:038] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:039] [FINE  ] WHITE's scenario: 29480 
+[18:04:039] [FINE  ] 1 - score: 29480 
+[18:04:039] [FINE  ] 2 - score: 29480 
+[18:04:039] [FINE  ] 2 - Try placing WHITE at: 7,8 
+[18:04:043] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:044] [FINE  ] WHITE's scenario: 29550 
+[18:04:044] [FINE  ] 1 - score: 29550 
+[18:04:044] [FINE  ] 2 - score: 29550 
+[18:04:044] [FINE  ] 2 - Try placing WHITE at: 2,7 
+[18:04:047] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:048] [FINE  ] WHITE's scenario: 29440 
+[18:04:048] [FINE  ] 1 - score: 29440 
+[18:04:048] [FINE  ] 2 - score: 29440 
+[18:04:048] [FINE  ] 2 - Try placing WHITE at: 3,5 
+[18:04:051] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:052] [FINE  ] WHITE's scenario: 29440 
+[18:04:052] [FINE  ] 1 - score: 29440 
+[18:04:052] [FINE  ] 2 - score: 29440 
+[18:04:052] [FINE  ] 2 - Try placing WHITE at: 3,7 
+[18:04:057] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:058] [FINE  ] WHITE's scenario: 29440 
+[18:04:058] [FINE  ] 1 - score: 29440 
+[18:04:058] [FINE  ] 2 - score: 29440 
+[18:04:058] [FINE  ] 2 - Try placing WHITE at: 3,8 
+[18:04:061] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:062] [FINE  ] WHITE's scenario: 29440 
+[18:04:062] [FINE  ] 1 - score: 29440 
+[18:04:062] [FINE  ] 2 - score: 29440 
+[18:04:062] [FINE  ] 2 - Try placing WHITE at: 4,5 
+[18:04:065] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:066] [FINE  ] WHITE's scenario: 29440 
+[18:04:066] [FINE  ] 1 - score: 29440 
+[18:04:066] [FINE  ] 2 - score: 29440 
+[18:04:066] [FINE  ] 2 - Try placing WHITE at: 8,12 
+[18:04:069] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:070] [FINE  ] WHITE's scenario: 29440 
+[18:04:070] [FINE  ] 1 - score: 29440 
+[18:04:070] [FINE  ] 2 - score: 29440 
+[18:04:070] [FINE  ] 2 - Try placing WHITE at: 4,10 
+[18:04:073] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:074] [FINE  ] WHITE's scenario: 29510 
+[18:04:074] [FINE  ] 1 - score: 29510 
+[18:04:074] [FINE  ] 2 - score: 29510 
+[18:04:074] [FINE  ] 2 - Try placing WHITE at: 5,9 
+[18:04:077] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:078] [FINE  ] WHITE's scenario: 29480 
+[18:04:078] [FINE  ] 1 - score: 29480 
+[18:04:078] [FINE  ] 2 - score: 29480 
+[18:04:078] [FINE  ] 2 - Try placing WHITE at: 5,11 
+[18:04:081] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:082] [FINE  ] WHITE's scenario: 29510 
+[18:04:082] [FINE  ] 1 - score: 29510 
+[18:04:082] [FINE  ] 2 - score: 29510 
+[18:04:082] [FINE  ] 2 - Try placing WHITE at: 6,4 
+[18:04:085] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:086] [FINE  ] WHITE's scenario: 29510 
+[18:04:086] [FINE  ] 1 - score: 29510 
+[18:04:086] [FINE  ] 2 - score: 29510 
+[18:04:086] [FINE  ] 2 - Try placing WHITE at: 6,5 
+[18:04:088] [FINE  ] 1 - Try placing BLACK at: 5,12 
+[18:04:090] [FINE  ] WHITE's scenario: 29480 
+[18:04:091] [FINE  ] 1 - score: 29480 
+[18:04:091] [FINE  ] 2 - score: 29480 
+[18:04:091] [FINE  ] 2 - Try placing WHITE at: 7,4 
+[18:04:094] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:096] [FINE  ] WHITE's scenario: 29510 
+[18:04:096] [FINE  ] 1 - score: 29510 
+[18:04:096] [FINE  ] 2 - score: 29510 
+[18:04:096] [FINE  ] 2 - Try placing WHITE at: 7,11 
+[18:04:098] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:099] [FINE  ] WHITE's scenario: 29510 
+[18:04:099] [FINE  ] 1 - score: 29510 
+[18:04:099] [FINE  ] 2 - score: 29510 
+[18:04:099] [FINE  ] 2 - Try placing WHITE at: 7,12 
+[18:04:104] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:106] [FINE  ] WHITE's scenario: 29510 
+[18:04:106] [FINE  ] 1 - score: 29510 
+[18:04:106] [FINE  ] 2 - score: 29510 
+[18:04:106] [FINE  ] 2 - Try placing WHITE at: 8,3 
+[18:04:111] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:112] [FINE  ] WHITE's scenario: 29510 
+[18:04:112] [FINE  ] 1 - score: 29510 
+[18:04:112] [FINE  ] 2 - score: 29510 
+[18:04:112] [FINE  ] 2 - Try placing WHITE at: 9,3 
+[18:04:115] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:117] [FINE  ] WHITE's scenario: 29510 
+[18:04:117] [FINE  ] 1 - score: 29510 
+[18:04:117] [FINE  ] 2 - score: 29510 
+[18:04:117] [FINE  ] 2 - Try placing WHITE at: 9,5 
+[18:04:120] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:121] [FINE  ] WHITE's scenario: 29510 
+[18:04:121] [FINE  ] 1 - score: 29510 
+[18:04:121] [FINE  ] 2 - score: 29510 
+[18:04:121] [FINE  ] 2 - Try placing WHITE at: 9,6 
+[18:04:124] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:125] [FINE  ] WHITE's scenario: 29510 
+[18:04:125] [FINE  ] 1 - score: 29510 
+[18:04:125] [FINE  ] 2 - score: 29510 
+[18:04:125] [FINE  ] 2 - Try placing WHITE at: 9,10 
+[18:04:129] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:130] [FINE  ] WHITE's scenario: 29510 
+[18:04:130] [FINE  ] 1 - score: 29510 
+[18:04:130] [FINE  ] 2 - score: 29510 
+[18:04:130] [FINE  ] 2 - Try placing WHITE at: 9,11 
+[18:04:133] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:134] [FINE  ] WHITE's scenario: 29510 
+[18:04:134] [FINE  ] 1 - score: 29510 
+[18:04:134] [FINE  ] 2 - score: 29510 
+[18:04:134] [FINE  ] 2 - Try placing WHITE at: 10,4 
+[18:04:137] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:138] [FINE  ] WHITE's scenario: 29510 
+[18:04:138] [FINE  ] 1 - score: 29510 
+[18:04:138] [FINE  ] 2 - score: 29510 
+[18:04:139] [FINE  ] 2 - Try placing WHITE at: 10,5 
+[18:04:142] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:143] [FINE  ] WHITE's scenario: 29510 
+[18:04:143] [FINE  ] 1 - score: 29510 
+[18:04:143] [FINE  ] 2 - score: 29510 
+[18:04:143] [FINE  ] 2 - Try placing WHITE at: 2,5 
+[18:04:146] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:147] [FINE  ] WHITE's scenario: 29580 
+[18:04:147] [FINE  ] 1 - score: 29580 
+[18:04:147] [FINE  ] 2 - score: 29580 
+[18:04:147] [FINE  ] 2 - Try placing WHITE at: 3,10 
+[18:04:151] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:152] [FINE  ] WHITE's scenario: 29580 
+[18:04:152] [FINE  ] 1 - score: 29580 
+[18:04:152] [FINE  ] 2 - score: 29580 
+[18:04:152] [FINE  ] 2 - Try placing WHITE at: 5,10 
+[18:04:156] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:157] [FINE  ] WHITE's scenario: 29580 
+[18:04:157] [FINE  ] 1 - score: 29580 
+[18:04:157] [FINE  ] 2 - score: 29580 
+[18:04:157] [FINE  ] 2 - Try placing WHITE at: 6,12 
+[18:04:160] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:161] [FINE  ] WHITE's scenario: 29580 
+[18:04:161] [FINE  ] 1 - score: 29580 
+[18:04:161] [FINE  ] 2 - score: 29580 
+[18:04:161] [FINE  ] 2 - Try placing WHITE at: 8,6 
+[18:04:164] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:165] [FINE  ] WHITE's scenario: 29580 
+[18:04:165] [FINE  ] 1 - score: 29580 
+[18:04:165] [FINE  ] 2 - score: 29580 
+[18:04:165] [FINE  ] 2 - Try placing WHITE at: 8,7 
+[18:04:168] [FINE  ] 1 - Try placing BLACK at: 5,12 
+[18:04:169] [FINE  ] WHITE's scenario: 29550 
+[18:04:169] [FINE  ] 1 - score: 29550 
+[18:04:169] [FINE  ] 2 - score: 29550 
+[18:04:169] [FINE  ] 2 - Try placing WHITE at: 8,10 
+[18:04:171] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:172] [FINE  ] WHITE's scenario: 29580 
+[18:04:173] [FINE  ] 1 - score: 29580 
+[18:04:173] [FINE  ] 2 - score: 29580 
+[18:04:173] [FINE  ] 2 - Try placing WHITE at: 9,9 
+[18:04:176] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:177] [FINE  ] WHITE's scenario: 29550 
+[18:04:177] [FINE  ] 1 - score: 29550 
+[18:04:177] [FINE  ] 2 - score: 29550 
+[18:04:177] [FINE  ] 2 - Try placing WHITE at: 9,12 
+[18:04:180] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:181] [FINE  ] WHITE's scenario: 29580 
+[18:04:181] [FINE  ] 1 - score: 29580 
+[18:04:181] [FINE  ] 2 - score: 29580 
+[18:04:181] [FINE  ] 2 - Try placing WHITE at: 10,3 
+[18:04:184] [FINE  ] 1 - Try placing BLACK at: 9,8 
+[18:04:184] [FINE  ] WHITE's scenario: 29580 
+[18:04:184] [FINE  ] 1 - score: 29580 
+[18:04:185] [FINE  ] 2 - score: 29580 
+[18:04:185] [FINE  ] WHITE best move908 and depth is 2 best score is -50(Branch factor:46; Scenarios Evaluated:143) 
+[18:05:981] [FINE  ] 2 - Try placing WHITE at: 4,13 
+[18:05:985] [FINE  ] 1 - Try placing BLACK at: 4,6 
+[18:05:986] [FINE  ] WHITE's scenario: -270 
+[18:05:986] [FINE  ] 1 - score: -270 
+[18:05:986] [FINE  ] 1 - Try placing BLACK at: 7,8 
+[18:05:987] [FINE  ] WHITE's scenario: -170 
+[18:05:987] [FINE  ] 1 - score: -170 
+[18:05:987] [FINE  ] 1 - Try placing BLACK at: 4,8 
+[18:05:988] [FINE  ] WHITE's scenario: -210 
+[18:05:988] [FINE  ] 1 - score: -210 
+[18:05:988] [FINE  ] 1 - Try placing BLACK at: 7,9 
+[18:05:988] [FINE  ] WHITE's scenario: -250 
+[18:05:989] [FINE  ] 1 - score: -250 
+[18:05:989] [FINE  ] 1 - Try placing BLACK at: 7,5 
+[18:05:989] [FINE  ] WHITE's scenario: -320 
+[18:05:989] [FINE  ] 1 - score: -320 
+[18:05:989] [FINE  ] 1 - Try placing BLACK at: 7,7 
+[18:05:990] [FINE  ] WHITE's scenario: -250 
+[18:05:990] [FINE  ] 1 - score: -250 
+[18:05:990] [FINE  ] 1 - Try placing BLACK at: 3,8 
+[18:05:991] [FINE  ] WHITE's scenario: -330 
+[18:05:991] [FINE  ] 1 - score: -330 
+[18:05:991] [FINE  ] 1 - Try placing BLACK at: 9,9 
+[18:05:992] [FINE  ] WHITE's scenario: -330 
+[18:05:992] [FINE  ] 1 - score: -330 
+[18:05:992] [FINE  ] 1 - Try placing BLACK at: 4,4 
+[18:05:992] [FINE  ] WHITE's scenario: -310 
+[18:05:992] [FINE  ] 1 - score: -310 
+[18:05:992] [FINE  ] 1 - Try placing BLACK at: 4,11 
+[18:05:993] [FINE  ] WHITE's scenario: -360 
+[18:05:993] [FINE  ] 1 - score: -360 
+[18:05:993] [FINE  ] 1 - Try placing BLACK at: 7,12 
+[18:05:994] [FINE  ] WHITE's scenario: -360 
+[18:05:994] [FINE  ] 1 - score: -360 
+[18:05:994] [FINE  ] 1 - Try placing BLACK at: 5,4 
+[18:05:995] [FINE  ] WHITE's scenario: -270 
+[18:05:995] [FINE  ] 1 - score: -270 
+[18:05:995] [FINE  ] 1 - Try placing BLACK at: 5,9 
+[18:05:995] [FINE  ] WHITE's scenario: -400 
+[18:05:995] [FINE  ] 1 - score: -400 
+[18:05:995] [FINE  ] 1 - Try placing BLACK at: 8,8 
+[18:05:996] [FINE  ] WHITE's scenario: -400 
+[18:05:996] [FINE  ] 1 - score: -400 
+[18:05:996] [FINE  ] 1 - Try placing BLACK at: 5,10 
+[18:05:997] [FINE  ] WHITE's scenario: -420 
+[18:05:997] [FINE  ] 1 - score: -420 
+[18:05:997] [FINE  ] 1 - Try placing BLACK at: 5,11 
+[18:05:997] [FINE  ] WHITE's scenario: -420 
+[18:05:997] [FINE  ] 1 - score: -420 
+[18:05:997] [FINE  ] 1 - Try placing BLACK at: 7,4 
+[18:05:998] [FINE  ] WHITE's scenario: -390 
+[18:05:998] [FINE  ] 1 - score: -390 
+[18:05:998] [FINE  ] 1 - Try placing BLACK at: 8,6 
+[18:05:999] [FINE  ] WHITE's scenario: -390 
+[18:05:999] [FINE  ] 1 - score: -390 
+[18:05:999] [FINE  ] 1 - Try placing BLACK at: 8,7 
+[18:06:000] [FINE  ] WHITE's scenario: -390 
+[18:06:000] [FINE  ] 1 - score: -390 
+[18:06:000] [FINE  ] 1 - Try placing BLACK at: 9,10 
+[18:06:000] [FINE  ] WHITE's scenario: -400 
+[18:06:000] [FINE  ] 1 - score: -400 
+[18:06:000] [FINE  ] 1 - Try placing BLACK at: 3,10 
+[18:06:001] [FINE  ] WHITE's scenario: -420 
+[18:06:001] [FINE  ] 1 - score: -420 
+[18:06:001] [FINE  ] 1 - Try placing BLACK at: 3,12 
+[18:06:002] [FINE  ] WHITE's scenario: -420 
+[18:06:002] [FINE  ] 1 - score: -420 
+[18:06:002] [FINE  ] 1 - Try placing BLACK at: 4,5 
+[18:06:003] [FINE  ] WHITE's scenario: -420 
+[18:06:003] [FINE  ] 1 - score: -420 
+[18:06:003] [FINE  ] 1 - Try placing BLACK at: 4,10 
+[18:06:004] [FINE  ] WHITE's scenario: -420 
+[18:06:004] [FINE  ] 1 - score: -420 
+[18:06:004] [FINE  ] 1 - Try placing BLACK at: 4,12 
+[18:06:005] [FINE  ] WHITE's scenario: -420 
+[18:06:005] [FINE  ] 1 - score: -420 
+[18:06:005] [FINE  ] 1 - Try placing BLACK at: 5,13 
+[18:06:006] [FINE  ] WHITE's scenario: -450 
+[18:06:006] [FINE  ] 1 - score: -450 
+[18:06:006] [FINE  ] 1 - Try placing BLACK at: 5,14 
+[18:06:007] [FINE  ] WHITE's scenario: -450 
+[18:06:007] [FINE  ] 1 - score: -450 
+[18:06:007] [FINE  ] 1 - Try placing BLACK at: 6,5 
+[18:06:007] [FINE  ] WHITE's scenario: -420 
+[18:06:008] [FINE  ] 1 - score: -420 
+[18:06:008] [FINE  ] 1 - Try placing BLACK at: 6,12 
+[18:06:008] [FINE  ] WHITE's scenario: -420 
+[18:06:008] [FINE  ] 1 - score: -420 
+[18:06:008] [FINE  ] 1 - Try placing BLACK at: 6,13 
+[18:06:009] [FINE  ] WHITE's scenario: -420 
+[18:06:009] [FINE  ] 1 - score: -420 
+[18:06:009] [FINE  ] 1 - Try placing BLACK at: 7,11 
+[18:06:010] [FINE  ] WHITE's scenario: -420 
+[18:06:010] [FINE  ] 1 - score: -420 
+[18:06:010] [FINE  ] 1 - Try placing BLACK at: 8,3 
+[18:06:010] [FINE  ] WHITE's scenario: -420 
+[18:06:011] [FINE  ] 1 - score: -420 
+[18:06:011] [FINE  ] 1 - Try placing BLACK at: 8,4 
+[18:06:013] [FINE  ] WHITE's scenario: -420 
+[18:06:013] [FINE  ] 1 - score: -420 
+[18:06:013] [FINE  ] 1 - Try placing BLACK at: 9,5 
+[18:06:014] [FINE  ] WHITE's scenario: -420 
+[18:06:014] [FINE  ] 1 - score: -420 
+[18:06:014] [FINE  ] 1 - Try placing BLACK at: 9,6 
+[18:06:015] [FINE  ] WHITE's scenario: -420 
+[18:06:015] [FINE  ] 1 - score: -420 
+[18:06:015] [FINE  ] 1 - Try placing BLACK at: 10,5 
+[18:06:016] [FINE  ] WHITE's scenario: -420 
+[18:06:016] [FINE  ] 1 - score: -420 
+[18:06:016] [FINE  ] 1 - Try placing BLACK at: 10,7 
+[18:06:017] [FINE  ] WHITE's scenario: -420 
+[18:06:017] [FINE  ] 1 - score: -420 
+[18:06:017] [FINE  ] 1 - Try placing BLACK at: 10,9 
+[18:06:017] [FINE  ] WHITE's scenario: -450 
+[18:06:018] [FINE  ] 1 - score: -450 
+[18:06:018] [FINE  ] 1 - Try placing BLACK at: 2,5 
+[18:06:018] [FINE  ] WHITE's scenario: -450 
+[18:06:018] [FINE  ] 1 - score: -450 
+[18:06:019] [FINE  ] 1 - Try placing BLACK at: 2,6 
+[18:06:019] [FINE  ] WHITE's scenario: -300 
+[18:06:019] [FINE  ] 1 - score: -300 
+[18:06:019] [FINE  ] 1 - Try placing BLACK at: 2,7 
+[18:06:020] [FINE  ] WHITE's scenario: -450 
+[18:06:020] [FINE  ] 1 - score: -450 
+[18:06:020] [FINE  ] 1 - Try placing BLACK at: 3,5 
+[18:06:021] [FINE  ] WHITE's scenario: -450 
+[18:06:021] [FINE  ] 1 - score: -450 
+[18:06:021] [FINE  ] 1 - Try placing BLACK at: 3,7 
+[18:06:022] [FINE  ] WHITE's scenario: -450 
+[18:06:022] [FINE  ] 1 - score: -450 
+[18:06:022] [FINE  ] 1 - Try placing BLACK at: 3,9 
+[18:06:023] [FINE  ] WHITE's scenario: -450 
+[18:06:023] [FINE  ] 1 - score: -450 
+[18:06:023] [FINE  ] 1 - Try placing BLACK at: 3,13 
+[18:06:024] [FINE  ] WHITE's scenario: -450 
+[18:06:024] [FINE  ] 1 - score: -450 
+[18:06:024] [FINE  ] 1 - Try placing BLACK at: 3,14 
+[18:06:025] [FINE  ] WHITE's scenario: -450 
+[18:06:025] [FINE  ] 1 - score: -450 
+[18:06:025] [FINE  ] 1 - Try placing BLACK at: 4,14 
+[18:06:025] [FINE  ] WHITE's scenario: -450 
+[18:06:026] [FINE  ] 1 - score: -450 
+[18:06:026] [FINE  ] 1 - Try placing BLACK at: 6,4 
+[18:06:026] [FINE  ] WHITE's scenario: -450 
+[18:06:026] [FINE  ] 1 - score: -450 
+[18:06:026] [FINE  ] 1 - Try placing BLACK at: 8,10 
+[18:06:027] [FINE  ] WHITE's scenario: -450 
+[18:06:027] [FINE  ] 1 - score: -450 
+[18:06:027] [FINE  ] 1 - Try placing BLACK at: 8,12 
+[18:06:028] [FINE  ] WHITE's scenario: -450 
+[18:06:028] [FINE  ] 1 - score: -450 
+[18:06:028] [FINE  ] 1 - Try placing BLACK at: 9,3 
+[18:06:028] [FINE  ] WHITE's scenario: -450 
+[18:06:028] [FINE  ] 1 - score: -450 
+[18:06:028] [FINE  ] 1 - Try placing BLACK at: 9,7 
+[18:06:029] [FINE  ] WHITE's scenario: -450 
+[18:06:029] [FINE  ] 1 - score: -450 
+[18:06:029] [FINE  ] 1 - Try placing BLACK at: 9,11 
+[18:06:030] [FINE  ] WHITE's scenario: -450 
+[18:06:030] [FINE  ] 1 - score: -450 
+[18:06:030] [FINE  ] 1 - Try placing BLACK at: 9,12 
+[18:06:030] [FINE  ] WHITE's scenario: -450 
+[18:06:030] [FINE  ] 1 - score: -450 
+[18:06:030] [FINE  ] 1 - Try placing BLACK at: 10,3 
+[18:06:031] [FINE  ] WHITE's scenario: -450 
+[18:06:031] [FINE  ] 1 - score: -450 
+[18:06:031] [FINE  ] 1 - Try placing BLACK at: 10,4 
+[18:06:032] [FINE  ] WHITE's scenario: -450 
+[18:06:032] [FINE  ] 1 - score: -450 
+[18:06:032] [FINE  ] 1 - Try placing BLACK at: 10,8 
+[18:06:032] [FINE  ] WHITE's scenario: -450 
+[18:06:033] [FINE  ] 1 - score: -450 
+[18:06:033] [FINE  ] BLACK best move708 and depth is 1 best score is -170(Branch factor:57; Scenarios Evaluated:57) 
+[18:06:033] [FINE  ] 2 - score: -170 

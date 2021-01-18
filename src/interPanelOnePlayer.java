@@ -18,7 +18,7 @@ public class interPanelOnePlayer extends JPanel {
   //private int clickCount;		// a counter used in the inner class of mouseListener
 
   public interPanelOnePlayer() {
-    System.out.println("constructor created!");
+    System.out.println("interPanelOnePlayer constructor called!");
 
     //clickCount=0;
 
@@ -35,7 +35,7 @@ public class interPanelOnePlayer extends JPanel {
           int x=(int)((e.getX()-2)*15/673);		//(673/15)px per grid
           int y=(int)((e.getY()-2)*15/673);
           if (x<0){		// adjustment made for the boundary
-            x=0;				
+            x=0;
           }else if (y<0){
             y=0;
           }else if (x>15){
@@ -90,7 +90,6 @@ public class interPanelOnePlayer extends JPanel {
               curFrame.dispose();
               return;
             }
-
           }
         }
       }
@@ -104,7 +103,7 @@ public class interPanelOnePlayer extends JPanel {
   // this method rewrite the paintComponent() for JPanel
   protected void paintComponent(Graphics g) {
     System.out.println("paintComponent called!");
-    super.paintComponent(g); 
+    super.paintComponent(g);
 
     int counter=0;
 
@@ -118,15 +117,15 @@ public class interPanelOnePlayer extends JPanel {
       //System.out.println(value);
       counter++;
       g.fillOval(45*(value/100)+7,45*(value%100)+7, radius,radius);
-    }    	
-  }  
+    }
+  }
 
   // this method stores the movesList array into a file
   private void createAndWriteToData(){
     System.out.println("Data is written to file");
     File dataFile;
     FileWriter out;
-    BufferedWriter writeFile;   
+    BufferedWriter writeFile;
 
     //save the data into a file
     dataFile	=new File("./StoredGamesForConnectOfFive/"+
@@ -136,8 +135,8 @@ public class interPanelOnePlayer extends JPanel {
       writeFile=new BufferedWriter(out);
       for (Iterator<Integer> iter=movesList.iterator(); iter.hasNext();){
         writeFile.write(iter.next()+"");
-        writeFile.newLine();  
-      }    	
+        writeFile.newLine();
+      }
       writeFile.close();
       out.close();
     }
