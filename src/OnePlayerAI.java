@@ -11,40 +11,42 @@ import java.util.logging.*;
 // this class enables the user to play against the computer
 public class OnePlayerAI {
   // declares serial version
-  private static final long serialVersionUID = 1L;
+  private final long serialVersionUID = 1L;
   // Should be an even number so that we evaluate scenario after opponent moves, to avoid being overly optimistic.
-  private static final int REC_DEPTH = 2;
-  private static final int BOARD_SIZE = 16;
-  private static final int MAX_SCORE=1000000000;
-  private static final int SCORE_OF_FIVE = 90000;
-  // four in a row
-  private static final int SCORE_OF_LIVE_FOUR = 30000;
-  private static final int SCORE_OF_DEAD_FOUR = 400;
-  private static final int SCORE_OF_DEAD_FOUR_PLAYER_MOVE = 9000;
-  // three in a row
-  // need to be more than SCORE_OF_LIVE_TWO_PLAYER_MOVE so that we know to block it.
-  private static final int SCORE_OF_LIVE_THREE = 200;
-  private static final int SCORE_OF_LIVE_THREE_WITH_SPACE = 150;
-  private static final int SCORE_OF_LIVE_THREE_PLAYER_MOVE = 1000;
-  private static final int SCORE_OF_DEAD_THREE = 50;
-  private static final int SCORE_OF_DEAD_THREE_PLAYER_MOVE = 150;
-  // two in a row
-  private static final int SCORE_OF_LIVE_TWO = 30;
-  private static final int SCORE_OF_LIVE_TWO_PLAYER_MOVE = 70;
-  private static final int SCORE_OF_DEAD_TWO = 5;
-  private static final int SCORE_OF_DEAD_TWO_PLAYER_MOVE = 10;
-  private static final int SCORE_OF_ADJACENT=5;
-  private static final int SCORE_RANDOM=2;
+  private final int REC_DEPTH = 2;
+  protected boolean isTest = false;
+  private int BOARD_SIZE = 16;
+  private final int MAX_SCORE=1000000000;
 
-  private static final int BLOCK_FOUR_SCORE = 3000;
-  private static final int BLOCK_LIVE_THREE_SCORE = 500;
-  private static final int BLOCK_DEAD_THREE_SCORE = 50;
-  private static final int BLOCK_LIVE_TWO_SCORE = 100;
+  // Row of thumb: better move needs to be 3x of a less optimal move
+  private final int SCORE_OF_FIVE = 95000;
+  // four in a row
+  private final int SCORE_OF_LIVE_FOUR = 9000;
+  private final int SCORE_OF_DEAD_FOUR = 400;
+  private final int SCORE_OF_DEAD_FOUR_PLAYER_MOVE = 30000;
+  // need to be more than SCORE_OF_LIVE_TWO_PLAYER_MOVE so that we know to block it.
+  private final int SCORE_OF_LIVE_THREE = 300;
+  private final int SCORE_OF_LIVE_THREE_WITH_SPACE = 200;
+  private final int SCORE_OF_LIVE_THREE_PLAYER_MOVE = 1000;
+  private final int SCORE_OF_DEAD_THREE = 50;
+  private final int SCORE_OF_DEAD_THREE_PLAYER_MOVE = 200;
+  // two in a row
+  private final int SCORE_OF_LIVE_TWO = 30;
+  private final int SCORE_OF_LIVE_TWO_PLAYER_MOVE = 70;
+  private final int SCORE_OF_DEAD_TWO = 5;
+  private final int SCORE_OF_DEAD_TWO_PLAYER_MOVE = 10;
+  private final int SCORE_OF_ADJACENT=5;
+  private final int SCORE_RANDOM=2;
+
+  private final int BLOCK_FOUR_SCORE = SCORE_OF_LIVE_FOUR * 3 + 1000;
+  private final int BLOCK_LIVE_THREE_SCORE = SCORE_OF_LIVE_THREE * 3 + 50;
+  private final int BLOCK_DEAD_THREE_SCORE = SCORE_OF_DEAD_THREE * 3 + 20;
+  private final int BLOCK_LIVE_TWO_SCORE = SCORE_OF_LIVE_TWO * 3 + 20;
 
  //2D array to hold the value of each cell, 1 for black, -1 for white and 0 for none;
   private int chessBoard[][]=new int[16][16];
-  static Hashtable<String, Integer> scenarioHT = new Hashtable<>();
-  static Logger logger = Logger.getLogger(OnePlayer.class.getName());
+  Hashtable<String, Integer> scenarioHT = new Hashtable<>();
+  Logger logger = Logger.getLogger(OnePlayer.class.getName());
 
   // constructor of the class
   public OnePlayerAI(){
@@ -64,20 +66,21 @@ public class OnePlayerAI {
 
   public void setBoard(int[][] board) {
     chessBoard = board;
+    BOARD_SIZE = chessBoard.length;
   }
 
 
   /************************* ABS MINIMAX ALGORITHM STARTS *******************************/
   /************************* ABS MINIMAX ALGORITHM STARTS *******************************/
-  public static boolean positionHasStone(int i, int j, int player_color){
-    return i >= 0 && j >= 0 && i < BOARD_SIZE && j < BOARD_SIZE && interPanelOnePlayer.chessBoard[i][j] == player_color;
+  public boolean positionHasStone(int i, int j, int player_color){
+    return i >= 0 && j >= 0 && i < BOARD_SIZE && j < BOARD_SIZE && chessBoard[i][j] == player_color;
   }
-  public static boolean hasStone(int i, int j){
-    return i >= 0 && j >= 0 && i < BOARD_SIZE && j < BOARD_SIZE && interPanelOnePlayer.chessBoard[i][j] != 0;
+  public boolean hasStone(int i, int j){
+    return i >= 0 && j >= 0 && i < BOARD_SIZE && j < BOARD_SIZE && chessBoard[i][j] != 0;
   }
-  public static String getBoardHashCode(){
+  public String getBoardHashCode(){
     ArrayList<Character> arr = new ArrayList<Character>();
-    for (int[] row: interPanelOnePlayer.chessBoard) {
+    for (int[] row: chessBoard) {
       for (int cell: row) {
         if (cell == 0)
           arr.add('0');
@@ -95,7 +98,7 @@ public class OnePlayerAI {
     }
     return sb.toString();
   }
-  public static int evaluateCurSituation(int next_player){
+  public int evaluateCurSituation(int next_player){
     String boardAsString = getBoardHashCode();
     if (scenarioHT.containsKey(boardAsString)) {
       logger.fine("Cache hit: "+boardAsString+": "+scenarioHT.get(boardAsString));
@@ -120,7 +123,7 @@ public class OnePlayerAI {
     return score;
   }
 
-  public static int getDirectionScore(int i, int j, int x_dir, int y_dir, int player) {
+  public int getDirectionScore(int i, int j, int x_dir, int y_dir, int player) {
     assert(player!=0);
     ArrayList<Character> arrlist = new ArrayList<Character>();
     for (int m = 0; m <= BOARD_SIZE; m++) {
@@ -139,12 +142,10 @@ public class OnePlayerAI {
     }
     String s = sb.toString();
     int res = evaluate1DScore(s)*player;
-    // if (res != 0)
-    //   System.out.println("Interesting pattern found for "+player+"; "+res+"at: "+i+","+j+" - "+x_dir+","+y_dir+":"+s);
     return res;
   }
   // TODO: convert this as for loop match and avoid StringBuilder
-  public static int evaluate1DScore(String s) {
+  public int evaluate1DScore(String s) {
     if (s.length() < 5)
       return 0;
     if (s.matches(".*aaaaa.*"))
@@ -175,8 +176,11 @@ public class OnePlayerAI {
       return -SCORE_OF_LIVE_TWO;
     return 0;
   }
+  public int calculateMove(int maxDepth, boolean isBlackTurn) {
+    return miniMaxRec(maxDepth, isBlackTurn, -MAX_SCORE, MAX_SCORE)[0];
+  }
   // Return a tuple of [bestMove, bestScore, branchFactor]
-  public static int[] miniMaxRec(int depth, boolean isBlackTurn, int alpha, int beta) {
+  private int[] miniMaxRec(int depth, boolean isBlackTurn, int alpha, int beta) {
     int bestMove=0;
     int bestScore=isBlackTurn ? -MAX_SCORE : MAX_SCORE;
     int stoneColor = isBlackTurn ? 1 : -1;
@@ -198,11 +202,11 @@ public class OnePlayerAI {
         !hasStone(i+1, j+1) && !hasStone(i+1, j) && !hasStone(i, j+1) && !hasStone(i+1, j-1))){
           continue;
         }
-        interPanelOnePlayer.chessBoard[i][j] = isBlackTurn ? 1 : -1;
+        chessBoard[i][j] = isBlackTurn ? 1 : -1;
         // positive for blackGain; negative for whiteGain;
         int scoreGain = Math.abs(evaluateScoreDelta(i, j));
         possibleMoves.add(new int[]{scoreGain, i, j});
-        interPanelOnePlayer.chessBoard[i][j] = 0;
+        chessBoard[i][j] = 0;
       }
     }
     Collections.sort(possibleMoves, new Comparator<int[]>() {
@@ -213,10 +217,9 @@ public class OnePlayerAI {
     });
 
     for (int[] move: possibleMoves) {
-      // System.out.println(depth+"Move score: "+move[0]);
       int i = move[1];
       int j = move[2];
-      interPanelOnePlayer.chessBoard[i][j] = isBlackTurn ? 1 : -1;
+      chessBoard[i][j] = isBlackTurn ? 1 : -1;
       logger.fine(depth+" - Try placing "+stoneColorText+" at: "+i+","+j);
       int[] recResult=miniMaxRec(depth-1, !isBlackTurn, alpha, beta);
       curScore = recResult[1];
@@ -224,7 +227,6 @@ public class OnePlayerAI {
       branchFactor++;
       totalScenarios+=recResult[2];
       if (isBlackTurn && curScore>bestScore || (!isBlackTurn && curScore<bestScore)){      //try to maximize the move
-        // System.out.println("Better move found for "+stoneColor+"; Prev Move: "+bestMove+"New move: "+i+","+j+"; Prev Score: "+bestScore+" New score:"+curScore);
         bestScore=curScore;
         bestMove=100*i+j;
         if (isBlackTurn)
@@ -232,22 +234,21 @@ public class OnePlayerAI {
         else
           beta = curScore;
       }
-      interPanelOnePlayer.chessBoard[i][j]=0;
+      chessBoard[i][j]=0;
       // if (isBlackTurn && bestScore>SCORE_OF_LIVE_FOUR || !isBlackTurn && bestScore<-SCORE_OF_LIVE_FOUR || move[0] > 1000) {
-      if (Math.abs(move[0]) > 1000) {
-        if (depth == REC_DEPTH)
+      if (Math.abs(move[0]) >= BLOCK_FOUR_SCORE) {
+        if (depth == REC_DEPTH && isTest == false)
           System.out.println(stoneColorText+" is making easy move with "+bestMove+" and depth is "+depth+" best score is "+bestScore+"(Branch factor:"+branchFactor+"; Scenarios Evaluated:"+totalScenarios+")");
         int[] ans = {bestMove, bestScore, totalScenarios};
         return ans;
       }
       if (alpha >= beta) {
-        // System.out.println("Pruning occurred at: "+branchFactor);
         break;
       }
     }
     String summaryTxt = stoneColorText+" best move"+bestMove+" and depth is "+depth+" best score is "+bestScore+"(Branch factor:"+branchFactor+"; Scenarios Evaluated:"+totalScenarios+")";
     logger.fine(summaryTxt);
-    if (depth == REC_DEPTH)
+    if (depth == REC_DEPTH && isTest == false)
       System.out.println(summaryTxt);
     int[] ans = {bestMove, bestScore, totalScenarios};
     return ans;
@@ -259,7 +260,7 @@ public class OnePlayerAI {
   /************************* DELTA MINIMAX ALGORITHM STARTS *******************************/
   /************************* DELTA MINIMAX ALGORITHM STARTS *******************************/
   // Return a tuple of [bestMove, bestScore]
-  public static int[] miniMaxDeltaRec(int depth, boolean isBlackTurn) {
+  public int[] miniMaxDeltaRec(int depth, boolean isBlackTurn) {
     int bestMove=0;
     int bestScore=isBlackTurn ? -MAX_SCORE : MAX_SCORE;
     int stoneColor = isBlackTurn ? 1 : -1;
@@ -274,20 +275,14 @@ public class OnePlayerAI {
         !hasStone(i+1, j+1) && !hasStone(i+1, j) && !hasStone(i, j+1) && !hasStone(i+1, j-1))){
           continue;
         }
-        interPanelOnePlayer.chessBoard[i][j]= isBlackTurn ? 1 : -1;
+        chessBoard[i][j]= isBlackTurn ? 1 : -1;
         int scoreGain = evaluateScoreDelta(i, j);
         curScore=miniMaxDeltaRec(depth-1, !isBlackTurn)[1]+scoreGain;
         if (isBlackTurn && curScore>bestScore || (!isBlackTurn && curScore<bestScore)){      //try to maximize the move
-          System.out.println("Better move found for "+stoneColor+"; Prev Move: "+bestMove+"New move: "+i+","+j+"; Prev Score: "+bestScore+" New score:"+curScore);
           bestScore=curScore;
           bestMove=100*i+j;
         }
-        interPanelOnePlayer.chessBoard[i][j]=0;
-        // if (isBlackTurn && bestScore>SCORE_OF_LIVE_FOUR || !isBlackTurn && bestScore<-SCORE_OF_LIVE_FOUR) {
-        //   System.out.println(stoneColor+" is winnning with move "+bestMove+" best score is "+bestScore);
-        //   int[] ans = {bestMove, bestScore};
-        //   return ans;
-        // }
+        chessBoard[i][j]=0;
       }
     }
     System.out.println(stoneColor+"'s best move"+bestMove+" and depth is "+depth+" best score is "+bestScore);
@@ -295,11 +290,7 @@ public class OnePlayerAI {
     return ans;
   }
 
-  public static int calculateNEWDelta(){
-    return miniMaxDeltaRec(2, false)[0];
-  }
-
-  public static int evaluateScoreDelta(int i, int j){
+  public int evaluateScoreDelta(int i, int j){
     int score=0;
     score+=getDirectionDeltaScore(i,j,0,1);	//right
     score+=getDirectionDeltaScore(i,j,1,0);	//down
@@ -309,8 +300,8 @@ public class OnePlayerAI {
     return score;
   }
 
-  public static int getDirectionDeltaScore(int i, int j, int x_dir, int y_dir) {
-    int player=interPanelOnePlayer.chessBoard[i][j];	// Stone placed, can be 1 (black) or -1(white)
+  public int getDirectionDeltaScore(int i, int j, int x_dir, int y_dir) {
+    int player=chessBoard[i][j];	// Stone placed, can be 1 (black) or -1(white)
     assert(player!=0);
     char[] arr = new char[9];
     for (int m = -4; m <= 4; m++) {
@@ -327,7 +318,7 @@ public class OnePlayerAI {
     return (attackDeltaScore(s.replace('W', 'b')) + defenceDeltaScore(s.replace('W', 'a')))*player;
   }
 
-  public static int defenceDeltaScore(String s) {
+  public int defenceDeltaScore(String s) {
     if (s.matches(".*abbbb.*") || s.matches(".*bbbba.*"))
       return BLOCK_FOUR_SCORE;
     if (s.matches(".*abbb0.*") || s.matches(".*0bbba.*") || s.matches(".*bbab0.*") || s.matches(".*0bbab.*") || s.matches(".*babb0.*") || s.matches(".*0babb.*"))
@@ -339,7 +330,7 @@ public class OnePlayerAI {
     return 0;
   }
 
-  public static int attackDeltaScore(String s) {
+  public int attackDeltaScore(String s) {
     if (s.matches(".*aaaaa.*"))
       return SCORE_OF_FIVE;
     if (s.matches(".*0aaaa0.*"))

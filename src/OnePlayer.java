@@ -15,7 +15,6 @@ public class OnePlayer extends JFrame implements MouseListener{
   // Should be an even number so that we evaluate scenario after opponent moves, to avoid being overly optimistic.
   private static final int REC_DEPTH = 2;
   private static final int BOARD_SIZE = 16;
-  private static final int MAX_SCORE=1000000000;
 
   // a static string used to store user's name
   static String playerOne;
@@ -136,7 +135,7 @@ public class OnePlayer extends JFrame implements MouseListener{
 
   public static int calculateNEW(){
     Date prevTimestamp = new Date();
-    int move = ai.miniMaxRec(REC_DEPTH, false, -MAX_SCORE, MAX_SCORE)[0];
+    int move = ai.calculateMove(REC_DEPTH, false);
     Date newTimestamp = new Date();
     long difference = newTimestamp.getTime() - prevTimestamp.getTime();
     System.out.println("It takes "+difference+"ms to make a move.");
