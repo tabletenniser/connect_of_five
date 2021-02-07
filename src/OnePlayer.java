@@ -12,8 +12,6 @@ import java.util.logging.*;
 public class OnePlayer extends JFrame implements MouseListener{
   // declares serial version
   private static final long serialVersionUID = 1L;
-  // Should be an even number so that we evaluate scenario after opponent moves, to avoid being overly optimistic.
-  private static final int REC_DEPTH = 2;
   private static final int BOARD_SIZE = 16;
 
   // a static string used to store user's name
@@ -135,7 +133,7 @@ public class OnePlayer extends JFrame implements MouseListener{
 
   public static int calculateNEW(){
     Date prevTimestamp = new Date();
-    int move = ai.calculateMove(REC_DEPTH, false);
+    int move = ai.calculateMove(ai.REC_DEPTH, false);
     Date newTimestamp = new Date();
     long difference = newTimestamp.getTime() - prevTimestamp.getTime();
     System.out.println("It takes "+difference+"ms to make a move.");

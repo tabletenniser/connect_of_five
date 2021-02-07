@@ -13,7 +13,7 @@ public class OnePlayerAI {
   // declares serial version
   private final long serialVersionUID = 1L;
   // Should be an even number so that we evaluate scenario after opponent moves, to avoid being overly optimistic.
-  private final int REC_DEPTH = 2;
+  protected final int REC_DEPTH = 5;
   protected boolean isTest = false;
   private int BOARD_SIZE = 16;
   private final int MAX_SCORE=1000000000;
@@ -21,9 +21,9 @@ public class OnePlayerAI {
   // Row of thumb: better move needs to be 3x of a less optimal move
   private final int SCORE_OF_FIVE = 95000;
   // four in a row
+  private final int SCORE_OF_FOUR_PLAYER_MOVE = 30000;
   private final int SCORE_OF_LIVE_FOUR = 9000;
   private final int SCORE_OF_DEAD_FOUR = 400;
-  private final int SCORE_OF_DEAD_FOUR_PLAYER_MOVE = 30000;
   // need to be more than SCORE_OF_LIVE_TWO_PLAYER_MOVE so that we know to block it.
   private final int SCORE_OF_LIVE_THREE = 300;
   private final int SCORE_OF_LIVE_THREE_WITH_SPACE = 200;
@@ -110,12 +110,14 @@ public class OnePlayerAI {
       atomicScore.getAndAdd(getDirectionScore(i, 0, 0, 1, next_player)); // vertical
       atomicScore.getAndAdd(getDirectionScore(0, i, 1, 0, next_player));// horizontal
       // down right
-      atomicScore.getAndAdd(getDirectionScore(0, i, 1, 1, next_player));
-      if (i != 0)
-        atomicScore.getAndAdd(getDirectionScore(i, 1, 1, 1, next_player));
-      // down left
-      atomicScore.getAndAdd(getDirectionScore(i, 0, -1, 1, next_player));
-      if (i != 0)
+      if (i <= BOARD_SIZE - 5)
+        atomicScore.getAndAdd(getDirectionScore(0, i, 1, 1, next_player));
+      if (i != 0 && i <= BOARD_SIZE - 5)
+        atomicScore.getAndAdd(getDirectionScore(i, 0, 1, 1, next_player));
+      // up right
+      if (i >= 4)
+        atomicScore.getAndAdd(getDirectionScore(i, 0, -1, 1, next_player));
+      if (i != 0 && i <= BOARD_SIZE - 5)
         atomicScore.getAndAdd(getDirectionScore(BOARD_SIZE-1, i, -1, 1, next_player));
     });
     int score = atomicScore.intValue();
@@ -146,33 +148,31 @@ public class OnePlayerAI {
   }
   // TODO: convert this as for loop match and avoid StringBuilder
   public int evaluate1DScore(String s) {
-    if (s.length() < 5)
-      return 0;
     if (s.matches(".*aaaaa.*"))
       return SCORE_OF_FIVE;
     if (s.matches(".*bbbbb.*"))
       return -SCORE_OF_FIVE;
     if (s.matches(".*0aaaa0.*"))
-      return SCORE_OF_LIVE_FOUR;
+      return SCORE_OF_FOUR_PLAYER_MOVE;
     if (s.matches(".*0bbbb0.*"))
       return -SCORE_OF_LIVE_FOUR;
-    if (s.matches(".*0aaaab.*") || s.matches(".*baaaa0.*") || s.matches(".*a0aaa.*") || s.matches(".*aa0aa.*") || s.matches(".*aaa0a.*"))
-      return SCORE_OF_DEAD_FOUR_PLAYER_MOVE;
-    if (s.matches(".*0bbbba.*") || s.matches(".*abbbb0.*") || s.matches(".*b0bbb.*") || s.matches(".*bb0bb.*") || s.matches(".*bbb0b.*"))
+    if (s.matches(".*0aaaab.*|.*baaaa0.*|.*a0aaa.*|.*aa0aa.*|.*aaa0a.*"))
+      return SCORE_OF_FOUR_PLAYER_MOVE;
+    if (s.matches(".*0bbbba.*|.*abbbb0.*|.*b0bbb.*|.*bb0bb.*|.*bbb0b.*"))
       return -SCORE_OF_DEAD_FOUR;
-    if (s.matches(".*0aaa0.*") || s.matches(".*0a0aa0.*") || s.matches(".*0aa0a0.*"))
+    if (s.matches(".*0aaa0.*|.*0a0aa0.*|.*0aa0a0.*"))
       return SCORE_OF_LIVE_THREE_PLAYER_MOVE;
     if (s.matches(".*0bbb0.*"))
       return -SCORE_OF_LIVE_THREE;
-    if (s.matches(".*0b0bb0.*") || s.matches(".*0bb0b0.*"))
+    if (s.matches(".*0b0bb0.*|.*0bb0b0.*"))
       return -SCORE_OF_LIVE_THREE_WITH_SPACE;
-    if (s.matches(".*00aaa.*") || s.matches(".*aaa00.*") || s.matches(".*0a0aa.*") || s.matches(".*aa0a0.*") || s.matches(".*a0aa0.*") || s.matches(".*0aa0a.*"))
+    if (s.matches(".*00aaa.*|.*aaa00.*|.*0a0aa.*|.*aa0a0.*|.*a0aa0.*|.*0aa0a.*"))
       return SCORE_OF_DEAD_THREE_PLAYER_MOVE;
-    if (s.matches(".*00bbb.*") || s.matches(".*bbb00.*") || s.matches(".*0b0bb.*") || s.matches(".*bb0b0.*") || s.matches(".*b0bb0.*") || s.matches(".*0bb0b.*"))
+    if (s.matches(".*00bbb.*|.*bbb00.*|.*0b0bb.*|.*bb0b0.*|.*b0bb0.*|.*0bb0b.*"))
       return -SCORE_OF_DEAD_THREE;
-    if (s.matches(".*00aa0.*") || s.matches(".*0aa00.*") || s.matches(".*0a0a0.*"))
+    if (s.matches(".*00aa0.*|.*0aa00.*|.*0a0a0.*"))
       return SCORE_OF_LIVE_TWO_PLAYER_MOVE;
-    if (s.matches(".*00bb0.*") || s.matches(".*0bb00.*") || s.matches(".*0b0b0.*"))
+    if (s.matches(".*00bb0.*|.*0bb00.*|.*0b0b0.*"))
       return -SCORE_OF_LIVE_TWO;
     return 0;
   }
@@ -185,17 +185,17 @@ public class OnePlayerAI {
     int bestScore=isBlackTurn ? -MAX_SCORE : MAX_SCORE;
     int stoneColor = isBlackTurn ? 1 : -1;
     String stoneColorText = isBlackTurn ? "BLACK" : "WHITE";
-    if (depth==0) {
-      int curScore = evaluateCurSituation(stoneColor);
+    int curScore = evaluateCurSituation(stoneColor);
+    if (Math.abs(curScore) >= SCORE_OF_LIVE_FOUR || depth == 0) {
       logger.fine(stoneColorText+"'s scenario: "+curScore);
       int[] ans = {-1, curScore, 1};
       return ans;
     }
-    int curScore=0;
     int branchFactor = 0;
     int totalScenarios = 0;
     // A tuple containing (score, i, j)
     java.util.List<int[]> possibleMoves = new ArrayList<int[]>();
+    // TODO: avoid Delta calculation and use Iterative-depth deepening.
     for (int i=0;i<BOARD_SIZE;i++){
       for (int j=0;j<BOARD_SIZE;j++){
         if (hasStone(i,j) || (!hasStone(i-1, j-1) && !hasStone(i-1, j) && !hasStone(i, j-1) && !hasStone(i-1, j+1) &&
@@ -319,13 +319,13 @@ public class OnePlayerAI {
   }
 
   public int defenceDeltaScore(String s) {
-    if (s.matches(".*abbbb.*") || s.matches(".*bbbba.*"))
+    if (s.matches(".*abbbb.*|.*bbbba.*"))
       return BLOCK_FOUR_SCORE;
-    if (s.matches(".*abbb0.*") || s.matches(".*0bbba.*") || s.matches(".*bbab0.*") || s.matches(".*0bbab.*") || s.matches(".*babb0.*") || s.matches(".*0babb.*"))
+    if (s.matches(".*abbb0.*|.*0bbba.*|.*bbab0.*|.*0bbab.*|.*babb0.*|.*0babb.*"))
       return BLOCK_LIVE_THREE_SCORE;
     if (s.matches(".*abbba.*"))
       return BLOCK_DEAD_THREE_SCORE;
-    if (s.matches(".*abb00.*") || s.matches(".*00bba.*") || s.matches(".*0bab0.*"))
+    if (s.matches(".*abb00.*|.*00bba.*|.*0bab0.*"))
       return BLOCK_LIVE_TWO_SCORE;
     return 0;
   }
@@ -335,15 +335,15 @@ public class OnePlayerAI {
       return SCORE_OF_FIVE;
     if (s.matches(".*0aaaa0.*"))
       return SCORE_OF_LIVE_FOUR;
-    if (s.matches(".*0aaaab.*") || s.matches(".*baaaa0.*") || s.matches(".*a0aaa.*") || s.matches(".*aa0aa.*") || s.matches(".*aaa0a.*"))
+    if (s.matches(".*0aaaab.*|.*baaaa0.*|.*a0aaa.*|.*aa0aa.*|.*aaa0a.*"))
       return SCORE_OF_DEAD_FOUR;
     if (s.matches(".*0aaa0.*"))
       return SCORE_OF_LIVE_THREE;
-    if (s.matches(".*0a0aa0.*") || s.matches(".*0aa0a0.*"))
+    if (s.matches(".*0a0aa0.*|.*0aa0a0.*"))
       return SCORE_OF_LIVE_THREE_WITH_SPACE;
-    if (s.matches(".*00aaa.*") || s.matches(".*aaa00.*") || s.matches(".*0a0aa.*") || s.matches(".*aa0a0.*") || s.matches(".*a0aa0.*") || s.matches(".*0aa0a.*"))
+    if (s.matches(".*00aaa.*|.*aaa00.*|.*0a0aa.*|.*aa0a0.*|.*a0aa0.*|.*0aa0a.*"))
       return SCORE_OF_DEAD_THREE;
-    if (s.matches(".*00aa0.*") || s.matches(".*0aa00.*") || s.matches(".*0a0a0.*"))
+    if (s.matches(".*00aa0.*|.*0aa00.*|.*0a0a0.*"))
       return SCORE_OF_LIVE_TWO;
     return 1;
   }
